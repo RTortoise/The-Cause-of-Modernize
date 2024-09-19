@@ -1,0 +1,602 @@
+﻿#印刷厂
+building_theater = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_print_studio.dds"
+	ai_nationalization_desire = -0.5
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+	unlocking_technologies = {
+		lathe
+	}
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_print_studio
+		#pmg_base_building_newspaper_studio
+		pmg_automation_print
+	}
+	
+	required_construction = construction_cost_medium
+}
+#木材厂
+building_hardwood_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_hardwood_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		lathe
+	}
+
+	production_method_groups = {
+		pmg_hardwood_production
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_medium
+}
+
+#零食厂
+building_food_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		canneries
+	}
+
+	production_method_groups = {
+		pmg_base_building_food_industry
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#面粉厂
+building_staple_food_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_staple_food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		canneries
+	}
+
+	production_method_groups = {
+		pmg_base_building_staple_food_industry
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#烈酒厂
+building_liquor_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_liquor_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}
+
+	production_method_groups = {
+		pmg_base_building_liquor_industry
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#葡萄酒厂
+building_wine_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_wine_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}
+
+	production_method_groups = {
+		pmg_base_building_wine_industry
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#肉罐头厂
+building_canned_meat_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_canned_meat_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		canneries
+	}
+
+	production_method_groups = {
+		pmg_base_building_canned_meat_industry
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#榨油厂
+building_edible_oil_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_edible_oil_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		canneries
+	}
+
+	production_method_groups = {
+		pmg_base_building_edible_oil_industry
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#织布厂
+building_cotton_cloth_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_cotton_cloth_mills.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		cotton_gin
+	}
+
+	production_method_groups = {
+		pmg_base_building_textile_mills_cotton
+        pmg_base_building_textile_mills_wollen
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#制衣厂
+building_textile_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		cotton_gin
+	}
+
+	production_method_groups = {
+		pmg_base_building_clothes_mills
+		pmg_base_building_clothes_mills_2
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#奢侈衣物厂
+building_luxury_clothes_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_luxury_clothes_mills.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		cotton_gin
+	}
+
+	production_method_groups = {
+		pmg_base_building_luxury_clothes_mills
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#家具厂
+building_furniture_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		lathe
+	}
+
+	production_method_groups = {
+		pmg_base_building_furniture_manufacturies
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+}
+
+#奢侈家具厂
+building_luxury_furniture_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_luxury_furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		lathe
+	}
+
+	production_method_groups = {
+		pmg_base_building_luxury_furniture_manufacturies
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+
+	required_construction = construction_cost_high
+}
+
+#玻璃厂
+building_glassworks = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		crystal_glass
+	}
+
+	production_method_groups = {
+		pmg_base_building_glassworks
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#瓷器厂
+building_porcelain_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_porcelain_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		crystal_glass
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_porcelain_factory
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#造纸厂
+building_paper_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_paper_mills
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#制鞋厂
+building_footwear_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_footwear_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+
+	unlocking_technologies = {
+		cotton_gin
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_footwear_with_natural_materials
+		pmg_base_building_footwear_with_artificial_materials
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#皮具厂
+building_tannery = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_tannery.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		cotton_gin
+	}		
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_tannery
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#钟表
+building_timepiece_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_timepiece_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_timepiece_factory
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#杂货
+building_sundry_goods_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_sundry_goods_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		lathe
+	}	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_sundry_goods_factory
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#摄像机
+building_camera_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_camera_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		camera
+	}
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_camera_factory
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+#胶卷
+building_film_strip_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_film_strip_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		plastics
+	}
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_film_strip_factory
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+#灯具
+building_lamp_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	unlocking_technologies = {
+		lathe
+	}	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_lamp_factory
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+#火柴
+building_match_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	unlocking_technologies = {
+		distillation
+	}	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_match_factory
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+building_toy_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_toy_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	unlocking_technologies = {
+		lathe
+	}	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_toy
+		pmg_toy_with_artificial_materials
+		pmg_automation_light
+		#pmg_ownership_capital_light_industry
+	}
+	
+	required_construction = construction_cost_high
+}

@@ -1,0 +1,36 @@
+pmg_road = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_road_1
+		pm_road_2
+		pm_road_3
+	}
+}
+
+pmg_base_building_railway = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_trains
+		pm_early_trains
+		pm_steam_trains
+		pm_electric_trains
+		pm_diesel_trains
+	}
+}
+
+pmg_market_management = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+	
+	production_methods = {
+		pm_market_management_1
+		pm_market_management_2
+		pm_market_management_3
+		pm_market_management_4
+		pm_market_management_5
+	}
+}

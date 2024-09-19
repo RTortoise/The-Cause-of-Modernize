@@ -1,0 +1,112 @@
+pm_carriage_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 4
+            goods_input_tools_add = 1.5
+
+            # output goods
+            goods_output_carriage_add = 17
+        }
+    }
+}
+
+pm_carriage_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	#unlocking_technologies = {
+		#lathe
+	#}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 8
+            goods_input_tools_add = 3
+
+            # output goods
+            goods_output_carriage_add = 34
+        }
+    }
+}
+
+pm_carriage_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 12
+            goods_input_tools_add = 4.5
+
+            # output goods
+            goods_output_carriage_add = 51
+        }
+    }
+}
+
+pm_carriage_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		shift_work
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 16
+            goods_input_tools_add = 6
+
+            # output goods
+            goods_output_carriage_add = 68
+        }
+    }
+}
+
+pm_carriage_5 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 20
+            goods_input_tools_add = 7.5
+
+            # output goods
+            goods_output_carriage_add = 85
+        }
+    }
+}

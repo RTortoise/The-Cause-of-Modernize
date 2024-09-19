@@ -1,0 +1,86 @@
+pmg_amenities = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_market_stalls
+		pm_urban_tools_I
+		pm_urban_groceries_I
+		pm_urban_clothes_I
+		pm_urban_hardwood_I
+		pm_market_squares
+		pm_urban_tools_II
+		pm_urban_groceries_II
+		pm_urban_clothes_II
+		pm_urban_hardwood_II
+		pm_covered_markets
+		pm_urban_tools_III
+		pm_urban_groceries_III
+		pm_urban_clothes_III
+		pm_urban_hardwood_III
+		pm_arcades
+		pm_urban_tools_IV
+		pm_urban_groceries_IV
+		pm_urban_clothes_IV
+		pm_urban_hardwood_IV
+	}
+}
+pmg_amenities_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_market_stalls_2
+		pm_urban_tools_I_2
+		pm_urban_groceries_I_2
+		pm_urban_clothes_I_2
+		pm_urban_hardwood_I_2
+		pm_market_squares_2
+		pm_urban_tools_II_2
+		pm_urban_groceries_II_2
+		pm_urban_clothes_II_2
+		pm_urban_hardwood_II_2
+		pm_covered_markets_2
+		pm_urban_tools_III_2
+		pm_urban_groceries_III_2
+		pm_urban_clothes_III_2
+		pm_urban_hardwood_III_2
+		pm_arcades_2
+		pm_urban_tools_IV_2
+		pm_urban_groceries_IV_2
+		pm_urban_clothes_IV_2
+		pm_urban_hardwood_IV_2
+	}
+}
+pmg_amenities_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_market_stalls_3
+		pm_urban_tools_I_3
+		pm_urban_groceries_I_3
+		pm_urban_clothes_I_3
+		pm_urban_hardwood_I_3
+		pm_market_squares_3
+		pm_urban_tools_II_3
+		pm_urban_groceries_II_3
+		pm_urban_clothes_II_3
+		pm_urban_hardwood_II_3
+		pm_covered_markets_3
+		pm_urban_tools_III_3
+		pm_urban_groceries_III_3
+		pm_urban_clothes_III_3
+		pm_urban_hardwood_III_3
+		pm_arcades_3
+		pm_urban_tools_IV_3
+		pm_urban_groceries_IV_3
+		pm_urban_clothes_IV_3
+		pm_urban_hardwood_IV_3
+	}
+}
+
+pmg_urban_housing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_urban_housing_1
+		pm_urban_housing_2
+		pm_urban_housing_3
+		pm_urban_housing_4
+		pm_urban_housing_5
+	}
+}

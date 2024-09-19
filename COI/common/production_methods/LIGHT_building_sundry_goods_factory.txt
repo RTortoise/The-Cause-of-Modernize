@@ -1,0 +1,128 @@
+#杂货品
+pm_sundry_goods_1 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = 4
+                        goods_input_iron_add = 3
+                        goods_input_hardwood_add = 2
+                        goods_input_glass_add = 2
+
+                        # output goods
+                        goods_output_sundry_goods_add = 67.5
+                }
+        }
+}
+
+pm_sundry_goods_2 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        
+        unlocking_technologies = {
+                mechanical_tools
+        }
+        
+        unlocking_production_methods = {
+                pm_atmospheric_engine_2
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = 8
+                        goods_input_iron_add = 6
+                        goods_input_hardwood_add = 6
+                        goods_input_dye_add = 6
+                        goods_input_glass_add = 6
+
+                        # output goods
+                        goods_output_sundry_goods_add = 135
+                }
+        }
+}
+
+pm_sundry_goods_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+        
+        unlocking_technologies = {
+                mechanized_workshops
+        }
+        
+        unlocking_production_methods = {
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = 12
+                        goods_input_tools_add = 10
+                        goods_input_hardwood_add = 8
+                        goods_input_dye_add = 9
+                        goods_input_glass_add = 9
+
+                        # output goods
+                        goods_output_sundry_goods_add = 202.5
+                }
+        }
+}
+
+pm_sundry_goods_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        
+        unlocking_technologies = {
+                shift_work
+        }
+        
+        unlocking_production_methods = {
+
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_cotton_cloth_add = 5
+                        goods_input_tools_add = 15
+                        goods_input_hardwood_add = 5
+                        goods_input_dye_add = 10
+                        goods_input_glass_add = 15
+                        goods_input_plastics_add = 15
+
+                        # output goods
+                        goods_output_sundry_goods_add = 270
+                }
+        }
+}
+
+pm_sundry_goods_5= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        
+        unlocking_technologies = {
+                conveyors
+        }
+        
+        unlocking_production_methods = {
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_cotton_cloth_add = 5
+                        goods_input_tools_add = 20
+                        goods_input_hardwood_add = 2
+                        goods_input_dye_add = 15
+                        goods_input_glass_add = 20
+                        goods_input_plastics_add = 19
+
+                        # output goods
+                        goods_output_sundry_goods_add = 337.5
+                }
+        }
+}

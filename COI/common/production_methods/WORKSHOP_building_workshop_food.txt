@@ -1,0 +1,621 @@
+#主食
+pm_workshop_staple_food_1_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.25
+
+			# output goods
+			goods_output_staple_food_add = 7.6
+		}
+	}
+}
+
+pm_workshop_staple_food_2_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 8.4
+
+			# output goods
+			goods_output_staple_food_add =15.2
+		}
+	}
+}
+pm_workshop_staple_food_1_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.25
+
+			# output goods
+			goods_output_staple_food_add = 7.6
+		}
+	}
+}
+
+pm_workshop_staple_food_2_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 8.4
+
+			# output goods
+			goods_output_staple_food_add =15.2
+		}
+	}
+}
+pm_workshop_staple_food_1_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.25
+
+			# output goods
+			goods_output_staple_food_add = 7.6
+		}
+	}
+}
+
+pm_workshop_staple_food_2_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 8.4
+
+			# output goods
+			goods_output_staple_food_add =15.2
+		}
+	}
+}
+pm_workshop_staple_food_1_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.25
+
+			# output goods
+			goods_output_staple_food_add = 7.6
+		}
+	}
+}
+
+pm_workshop_staple_food_2_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 8.4
+
+			# output goods
+			goods_output_staple_food_add =15.2
+		}
+	}
+}
+#食用油
+pm_workshop_edible_oil_1_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.5
+            goods_input_grain_add = 7.25
+
+            # output goods
+            goods_output_edible_oil_add = 6
+		}
+	}
+}
+
+pm_workshop_edible_oil_2_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.8
+            goods_input_grain_add = 11.2
+            goods_input_chemicals_add = 1.6
+
+            # output goods
+            goods_output_edible_oil_add = 10
+		}
+	}
+}
+pm_workshop_edible_oil_1_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.5
+            goods_input_grain_add = 7.25
+
+            # output goods
+            goods_output_edible_oil_add = 6
+		}
+	}
+}
+
+pm_workshop_edible_oil_2_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.8
+            goods_input_grain_add = 11.2
+            goods_input_chemicals_add = 1.6
+
+            # output goods
+            goods_output_edible_oil_add = 10
+		}
+	}
+}
+pm_workshop_edible_oil_1_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.5
+            goods_input_grain_add = 7.25
+
+            # output goods
+            goods_output_edible_oil_add = 6
+		}
+	}
+}
+
+pm_workshop_edible_oil_2_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.8
+            goods_input_grain_add = 11.2
+            goods_input_chemicals_add = 1.6
+
+            # output goods
+            goods_output_edible_oil_add = 10
+		}
+	}
+}
+pm_workshop_edible_oil_1_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.5
+            goods_input_grain_add = 7.25
+
+            # output goods
+            goods_output_edible_oil_add = 6
+		}
+	}
+}
+
+pm_workshop_edible_oil_2_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 0.8
+            goods_input_grain_add = 11.2
+            goods_input_chemicals_add = 1.6
+
+            # output goods
+            goods_output_edible_oil_add = 10
+		}
+	}
+}
+
+#烈酒
+pm_workshop_liquor_1_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 3.5
+			goods_input_glass_add = 0.75
+
+			# output goods
+			goods_output_liquor_add = 9.5
+		}
+	}
+}
+
+pm_workshop_liquor_2_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.2
+			goods_input_glass_add = 1.2
+			goods_input_chemicals_add = 0.4
+
+			# output goods
+			goods_output_liquor_add = 15.2
+		}
+	}
+}
+pm_workshop_liquor_1_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 3.5
+			goods_input_glass_add = 0.75
+
+			# output goods
+			goods_output_liquor_add = 9.5
+		}
+	}
+}
+
+pm_workshop_liquor_2_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.2
+			goods_input_glass_add = 1.2
+			goods_input_chemicals_add = 0.4
+
+			# output goods
+			goods_output_liquor_add = 15.2
+		}
+	}
+}
+
+pm_workshop_liquor_1_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 3.5
+			goods_input_glass_add = 0.75
+
+			# output goods
+			goods_output_liquor_add = 9.5
+		}
+	}
+}
+
+pm_workshop_liquor_2_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.2
+			goods_input_glass_add = 1.2
+			goods_input_chemicals_add = 0.4
+
+			# output goods
+			goods_output_liquor_add = 15.2
+		}
+	}
+}
+pm_workshop_liquor_1_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 3.5
+			goods_input_glass_add = 0.75
+
+			# output goods
+			goods_output_liquor_add = 9.5
+		}
+	}
+}
+
+pm_workshop_liquor_2_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 5.2
+			goods_input_glass_add = 1.2
+			goods_input_chemicals_add = 0.4
+
+			# output goods
+			goods_output_liquor_add = 15.2
+		}
+	}
+}
+
+#葡萄酒
+pm_workshop_wine_1_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add =0.75
+			goods_input_fruit_add = 2.75
+
+			# output goods
+			goods_output_wine_add = 6.25
+		}
+	}
+}
+
+pm_workshop_wine_2_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 1.2
+			goods_input_fruit_add = 4
+			goods_input_chemicals_add = 0.8
+
+			# output goods
+			goods_output_wine_add = 8
+		}
+	}
+}
+pm_workshop_wine_1_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add =0.75
+			goods_input_fruit_add = 2.75
+
+			# output goods
+			goods_output_wine_add = 6.25
+		}
+	}
+}
+
+pm_workshop_wine_2_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 1.2
+			goods_input_fruit_add = 4
+			goods_input_chemicals_add = 0.8
+
+			# output goods
+			goods_output_wine_add = 8
+		}
+	}
+}
+pm_workshop_wine_1_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add =0.75
+			goods_input_fruit_add = 2.75
+
+			# output goods
+			goods_output_wine_add = 6.25
+		}
+	}
+}
+
+pm_workshop_wine_2_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 1.2
+			goods_input_fruit_add = 4
+			goods_input_chemicals_add = 0.8
+
+			# output goods
+			goods_output_wine_add = 8
+		}
+	}
+}
+pm_workshop_wine_1_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add =0.75
+			goods_input_fruit_add = 2.75
+
+			# output goods
+			goods_output_wine_add = 6.25
+		}
+	}
+}
+
+pm_workshop_wine_2_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+		
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 1.2
+			goods_input_fruit_add = 4
+			goods_input_chemicals_add = 0.8
+
+			# output goods
+			goods_output_wine_add = 8
+		}
+	}
+}
+
+

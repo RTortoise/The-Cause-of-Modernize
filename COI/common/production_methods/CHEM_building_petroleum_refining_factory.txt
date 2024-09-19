@@ -1,0 +1,146 @@
+pm_petroleum_refining_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+
+        unlocking_technologies = {
+                combustion_engine
+        }
+
+        unlocking_production_methods = {
+            pm_watertube_boiler
+            pm_rotary_valve_engine
+            pm_assembly_lines
+        }
+        
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_oil_add = 81
+
+                        # output goods
+                        goods_output_fuel_oil_add = 300
+                }
+        }
+}
+
+pm_petroleum_refining_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        
+        unlocking_technologies = {
+                steam_turbine
+        }
+        
+        unlocking_production_methods = {
+                pm_rotary_valve_engine
+                pm_assembly_lines
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_oil_add = 108
+                        goods_input_chemicals_add = 24
+
+                        # output goods
+                        goods_output_fuel_oil_add = 400
+                }
+        }
+}
+pm_petroleum_refining_5= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        
+        unlocking_technologies = {
+                oil_turbine
+        }
+        
+        unlocking_production_methods = {
+         pm_assembly_lines
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_oil_add = 135
+                        goods_input_chemicals_add = 30
+
+                        # output goods
+                        goods_output_fuel_oil_add = 500
+                }
+        }
+}
+
+pm_coal_to_oil_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+
+        unlocking_technologies = {
+                combustion_engine
+        }
+
+        unlocking_production_methods = {
+            pm_watertube_boiler
+            pm_rotary_valve_engine
+            pm_assembly_lines
+            pm_petroleum_refining_3
+        }
+        
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_oil_add = -81
+                        goods_input_coal_add = 130
+                        goods_input_chemicals_add = 15
+
+                        # output goods
+                }
+        }
+}
+
+pm_coal_to_oil_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        
+        unlocking_technologies = {
+                steam_turbine
+        }
+        
+        unlocking_production_methods = {
+                pm_rotary_valve_engine
+                pm_assembly_lines
+                pm_petroleum_refining_4
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_oil_add = -108
+                        goods_input_coal_add = 169
+                        goods_input_chemicals_add = -1
+                        # output goods
+                        
+                }
+        }
+}
+pm_coal_to_oil_5= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        
+        unlocking_technologies = {
+                oil_turbine
+        }
+        
+        unlocking_production_methods = {
+                pm_assembly_lines
+                pm_petroleum_refining_5
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_oil_add = -135
+                        goods_input_coal_add = 210
+                        goods_input_chemicals_add = 5
+
+                        # output goods
+                }
+        }
+}
+

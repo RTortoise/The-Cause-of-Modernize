@@ -1,0 +1,234 @@
+﻿#制鞋，天然材料
+pm_footwear_1 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = 12
+                        goods_input_animal_product_add = 6
+
+                        # output goods
+                        goods_output_footwear_add = 45
+                }
+        }
+}
+
+pm_footwear_2 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        unlocking_technologies = {
+                mechanical_tools
+        }
+        unlocking_production_methods = {
+                pm_atmospheric_engine_2
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = 18
+                        goods_input_animal_product_add = 18
+
+                        # output goods
+                        goods_output_footwear_add = 90
+                }
+        }
+}
+
+pm_footwear_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+        
+        unlocking_technologies = {
+                mechanized_workshops
+        }
+        
+        unlocking_production_methods = {
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                       # input goods
+                        goods_input_cotton_cloth_add = 21
+                        goods_input_animal_product_add = 21
+                        goods_input_dye_add = 9
+
+                        # output goods
+                        goods_output_footwear_add = 135
+                }
+        }
+}
+
+pm_footwear_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        
+        unlocking_technologies = {
+                shift_work
+        }
+        
+        unlocking_production_methods = {
+
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_cotton_cloth_add = 27
+                        goods_input_animal_product_add = 27
+                        goods_input_chemicals_add = 7
+                        goods_input_dye_add = 10
+
+                        # output goods
+                        goods_output_footwear_add = 180
+                }
+        }
+}
+
+pm_footwear_5= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        
+        unlocking_technologies = {
+                conveyors
+        }
+        
+        unlocking_production_methods = {
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_cotton_cloth_add = 35
+                        goods_input_animal_product_add = 35
+                        goods_input_chemicals_add = 10
+                        goods_input_dye_add = 10
+
+                        # output goods
+                        goods_output_footwear_add = 225
+                }
+        }
+}
+
+#人工材料
+pm_footwear_with_artificial_materials_0= {
+        texture = "gfx/interface/icons/production_method_icons/no_artificial_silk.dds"
+
+        unlocking_production_methods = {
+		pm_footwear_1
+		pm_footwear_2
+		pm_footwear_3
+		pm_footwear_4
+		pm_footwear_5
+	}
+	building_modifiers = {
+        	workforce_scaled = {
+
+        }
+    }
+}
+
+pm_footwear_with_artificial_materials_1 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        unlocking_technologies = {
+                rubber_mastication
+        }
+
+        unlocking_production_methods = {
+		pm_footwear_3
+		pm_footwear_4
+		pm_footwear_5
+	}
+
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = -20
+                        goods_input_rubber_add = 15
+                }
+        }
+
+}
+
+pm_footwear_with_artificial_materials_2 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        unlocking_technologies = {
+                rubber_mastication
+        }
+        unlocking_production_methods = {
+		pm_footwear_4
+		pm_footwear_5
+	}
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = -27
+                        goods_input_rubber_add = 20
+                }
+        }
+}
+
+pm_footwear_with_artificial_materials_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+        unlocking_technologies = {
+                rubber_mastication
+        }
+        unlocking_production_methods = {
+		pm_footwear_5
+	}
+
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = -35
+                        goods_input_rubber_add = 26
+                }
+        }
+}
+
+pm_footwear_with_artificial_materials_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        unlocking_technologies = {
+                plastics
+        }
+        
+        unlocking_production_methods = {
+		pm_footwear_4
+		pm_footwear_5
+	}
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_cotton_cloth_add = -35
+                        goods_input_animal_product_add = -27
+                        goods_input_rubber_add = 26
+                        goods_input_plastics_add = 27
+                }
+        }
+}
+
+pm_footwear_with_artificial_materials_5= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        unlocking_technologies = {
+                plastics
+        }
+        
+        unlocking_production_methods = {
+		pm_footwear_5
+	}
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_cotton_cloth_add = -35
+                        goods_input_animal_product_add = -35
+                        goods_input_rubber_add = 26
+                        goods_input_plastics_add = 35
+                }
+        }
+}

@@ -1,0 +1,113 @@
+pm_ge_machinery_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 8
+			goods_input_iron_add = 10.5
+
+			# output goods
+			goods_output_general_machinery_add = 24
+		}
+	}
+}
+
+pm_ge_machinery_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	#unlocking_technologies = {
+		#mechanical_tools
+	#}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_iron_add = 10
+			goods_input_tools_add = 17
+
+			# output goods
+			goods_output_general_machinery_add = 48
+		}
+	}
+}
+
+pm_ge_machinery_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 25.5
+			goods_input_steel_add = 24
+
+			# output goods
+			goods_output_general_machinery_add = 72
+		}
+	}
+}
+
+pm_ge_machinery_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		shift_work
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 34
+			goods_input_steel_add = 32
+
+			# output goods
+			goods_output_general_machinery_add = 96
+		}
+	}
+}
+
+pm_ge_machinery_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 42.5
+			goods_input_steel_add = 40
+
+			# output goods
+			goods_output_general_machinery_add = 120
+		}
+	}
+}

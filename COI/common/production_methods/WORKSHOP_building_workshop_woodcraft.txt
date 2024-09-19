@@ -1,0 +1,879 @@
+pm_workshop_hardwood = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 50
+
+			# output goods
+			goods_output_hardwood_add = 30  
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_hardwood_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 50
+
+			# output goods
+			goods_output_hardwood_add = 30  
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_hardwood_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 50
+
+			# output goods
+			goods_output_hardwood_add = 30  
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_hardwood_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 50
+
+			# output goods
+			goods_output_hardwood_add = 30  
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+pm_workshop_advanced_chopping = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		steelworking
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 100
+			goods_input_alloy_products_add = 10
+
+			# output goods
+			goods_output_hardwood_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_advanced_chopping_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		steelworking
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 100
+			goods_input_alloy_products_add = 10
+
+			# output goods
+			goods_output_hardwood_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_advanced_chopping_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		steelworking
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 100
+			goods_input_alloy_products_add = 10
+
+			# output goods
+			goods_output_hardwood_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_advanced_chopping_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		steelworking
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 100
+			goods_input_alloy_products_add = 10
+
+			# output goods
+			goods_output_hardwood_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+pm_workshop_handcrafted_furniture = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_fabric_add = 5
+
+			# output goods
+			goods_output_furniture_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_handcrafted_furniture_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_fabric_add = 5
+
+			# output goods
+			goods_output_furniture_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_handcrafted_furniture_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_fabric_add = 5
+
+			# output goods
+			goods_output_furniture_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_handcrafted_furniture_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_fabric_add = 5
+
+			# output goods
+			goods_output_furniture_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+pm_workshop_lathe = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 12
+			goods_input_cotton_cloth_add = 8
+
+			# output goods
+			goods_output_furniture_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_lathe_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 12
+			goods_input_cotton_cloth_add = 8
+
+			# output goods
+			goods_output_furniture_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_lathe_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 12
+			goods_input_cotton_cloth_add = 8
+
+			# output goods
+			goods_output_furniture_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_lathe_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 12
+			goods_input_cotton_cloth_add = 8
+
+			# output goods
+			goods_output_furniture_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+
+pm_workshop_carriage_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+				# input goods
+				goods_input_hardwood_add = 2.5
+				goods_input_tools_add = 1
+				# output goods
+				goods_output_carriage_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_carriage_1_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+				# input goods
+				goods_input_hardwood_add = 2.5
+				goods_input_tools_add = 1
+				# output goods
+				goods_output_carriage_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_carriage_1_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+				# input goods
+				goods_input_hardwood_add = 2.5
+				goods_input_tools_add = 1
+				# output goods
+				goods_output_carriage_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_carriage_1_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+				# input goods
+				goods_input_hardwood_add = 2.5
+				goods_input_tools_add = 1
+				# output goods
+				goods_output_carriage_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+
+pm_workshop_carriage_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+        	    goods_input_hardwood_add = 5
+	            goods_input_tools_add = 2
+
+        	    # output goods
+ 	           goods_output_carriage_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_carriage_2_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+        	    goods_input_hardwood_add = 5
+	            goods_input_tools_add = 2
+
+        	    # output goods
+ 	           goods_output_carriage_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_carriage_2_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+        	    goods_input_hardwood_add = 5
+	            goods_input_tools_add = 2
+
+        	    # output goods
+ 	           goods_output_carriage_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_carriage_2_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+        	    goods_input_hardwood_add = 5
+	            goods_input_tools_add = 2
+
+        	    # output goods
+ 	           goods_output_carriage_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+pm_workshop_luxury_furniture_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 5
+			goods_input_silk_add = 3
+
+			# output goods
+			goods_output_luxury_furniture_add = 15
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_luxury_furniture_1_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 5
+			goods_input_silk_add = 3
+
+			# output goods
+			goods_output_luxury_furniture_add = 15
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_luxury_furniture_1_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 5
+			goods_input_silk_add = 3
+
+			# output goods
+			goods_output_luxury_furniture_add = 15
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_luxury_furniture_1_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 5
+			goods_input_silk_add = 3
+
+			# output goods
+			goods_output_luxury_furniture_add = 15
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+pm_workshop_luxury_furniture_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}	
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_silk_add = 8
+
+			# output goods
+			goods_output_luxury_furniture_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_luxury_furniture_2_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}	
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_silk_add = 8
+
+			# output goods
+			goods_output_luxury_furniture_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_luxury_furniture_2_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}	
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_silk_add = 8
+
+			# output goods
+			goods_output_luxury_furniture_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_luxury_furniture_2_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}	
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 10
+			goods_input_silk_add = 8
+
+			# output goods
+			goods_output_luxury_furniture_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}

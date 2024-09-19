@@ -1,0 +1,71 @@
+﻿#制造业自动化-更多的通用机械投入
+pmg_automation_building_tooling_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+}
+#制造业自动化-作坊
+pmg_workshop_automation_building_tooling_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_workshop_automation_disabled
+		pm_workshop_atmospheric_engine
+	}
+}
+
+#高级化工业自动化
+pmg_automation_pro_chem = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+}
+
+#电子业自动化-更多精密机械投入
+pmg_automation_elec = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+}
+
+#轻工业自动化-更多精密机械投入
+pmg_automation_light = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+}
+#轻工业自动化-作坊
+pmg_workshop_automation_light = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_workshop_automation_disabled
+		pm_workshop_atmospheric_engine_2
+	}
+}
+
+#矿业自动化
+pmg_automation_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled_mine
+		pm_atmospheric_engine_mine
+		pm_watertube_boiler_mine
+		pm_rotary_valve_engine_mine
+		pm_assembly_lines_mine
+	}
+}

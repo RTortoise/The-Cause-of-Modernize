@@ -1,0 +1,76 @@
+
+pm_pulp_pressing = {
+	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"			
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 30
+			
+			# output goods
+			goods_output_paper_add = 40
+		}
+	}
+}
+
+pm_sulfite_pulping = {
+	texture = "gfx/interface/icons/production_method_icons/sulfite_pulping.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 3
+		}
+	}
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 30
+			goods_input_chemicals_add = 25
+			
+			# output goods
+			goods_output_paper_add = 70
+		}
+	}
+}
+
+pm_bleached_paper = {
+	texture = "gfx/interface/icons/production_method_icons/bleached_paper.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 30
+			goods_input_chemicals_add = 25
+			goods_input_dye_add = 10
+			
+			# output goods
+			goods_output_paper_add = 100
+		}
+	}
+}

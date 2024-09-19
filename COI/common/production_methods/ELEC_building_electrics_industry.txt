@@ -1,0 +1,67 @@
+pm_telephones_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 12
+			goods_input_tools_add = 6
+			goods_input_alloy_products_add = 6
+			goods_input_lead_add = 36
+
+			# output goods
+			goods_output_telephones_add = 72
+		}
+	}
+}
+
+pm_telephones_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 16
+			goods_input_tools_add = 8
+			goods_input_alloy_products_add = 8
+			goods_input_electronic_component_add = 48
+
+			# output goods
+			goods_output_telephones_add = 96
+		}
+	}
+}
+
+pm_telephones_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		radio
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 20
+			goods_input_tools_add = 10
+			goods_input_alloy_products_add = 10
+			goods_input_electronic_component_add = 60
+
+			# output goods
+			goods_output_telephones_add = 120
+		}
+	}
+}

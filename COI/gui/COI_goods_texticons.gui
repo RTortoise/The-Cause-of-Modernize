@@ -1,0 +1,388 @@
+texticon = {
+	icon = alloy
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/alloy.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = lamp
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/lamp.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = match
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/match.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = alloy_products
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/alloy_products.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = animal_product
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/animal_product.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = camera
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/camera.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = canned_meat
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/canned_meat.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = carriage
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/carriage.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = catering
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/catering.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = cement
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/cement.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = chemicals
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/chemicals.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = cosmetics
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/cosmetics.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = cotton
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/cotton.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = cotton_cloth
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/cotton_cloth.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = detergent
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/detergent.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = draft_animal
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/draft_animal.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = edible_oil
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/edible_oil.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = electrical_engines
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/electrical_engines.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = electrical_equipment
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/electrical_equipment.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = electronic_component
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/electronic_component.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = film_strip
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/film_strip.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = financial_service
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/financial_service.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = footwear
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/footwear.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = fuel_oil
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/fuel_oil.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = general_machinery
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/general_machinery.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = health_care
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/health_care.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = housing
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/housing.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = leather_goods
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/leather_goods.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+
+texticon = {
+	icon = perform
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/perform.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = pharmaceutical
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/pharmaceutical.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = photo
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/photo.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = plastics
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/plastics.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = post
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/post.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = precision_machinery
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/precision_machinery.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = rough_clothes
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/rough_clothes.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = staple_food
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/staple_food.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = stock
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/stock.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = sundry_goods
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/sundry_goods.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = timepiece
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/timepiece.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = toy
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/toy.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+

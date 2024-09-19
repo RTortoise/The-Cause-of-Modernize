@@ -1,0 +1,100 @@
+pm_match_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 13
+            goods_input_sulfur_add = 7
+
+            # output goods
+            goods_output_match_add = 147
+        }
+    }
+}
+pm_match_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		fractional_distillation 
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 26
+            goods_input_sulfur_add = 14
+
+
+            # output goods
+            goods_output_match_add =294 
+        }
+    }
+}
+pm_match_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		vulcanization
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 39
+            goods_input_sulfur_add = 19
+            goods_input_chemicals_add = 5
+            # output goods
+            goods_output_match_add = 441
+        }
+    }
+}
+pm_match_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 51
+            goods_input_sulfur_add = 26
+            goods_input_chemicals_add = 7
+            # output goods
+            goods_output_match_add = 588
+        }
+    }
+}
+pm_match_5 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	unlocking_technologies = {
+		conveyors
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 63
+            goods_input_sulfur_add = 33
+            goods_input_chemicals_add = 9
+            # output goods
+            goods_output_match_add = 735
+        }
+    }
+}

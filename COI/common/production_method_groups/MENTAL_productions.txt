@@ -1,0 +1,116 @@
+#合金厂
+pmg_alloy_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_alloy_production_1
+		pm_alloy_production_2
+		pm_alloy_production_3
+		pm_alloy_production_4
+		pm_alloy_production_5
+	}
+}
+
+#合金制品厂
+pmg_alloy_products_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_alloy_products_1
+		pm_alloy_products_2
+		pm_alloy_products_3
+		pm_alloy_products_4
+		pm_alloy_products_5
+	}
+}
+
+#钢铁制品厂
+pmg_base_building_tooling_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_crude_tools
+		pm_pig_iron
+		pm_early_steel
+		pm_steel
+		pm_rubber_grips
+	}
+}
+
+#钢铁厂
+pmg_steelmaking_process = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_blister_steel_process
+		pm_bessemer_process
+		pm_bessemer_process_2
+		pm_open_hearth_process
+		pm_electric_arc_process
+	}
+}
+
+#通用机械厂
+pmg_general_machinery_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ge_machinery_1
+		pm_ge_machinery_2
+		pm_ge_machinery_3
+		pm_ge_machinery_4
+		pm_ge_machinery_5
+	}
+}
+
+#精密机械厂
+pmg_precision_machinery_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_pr_machinery_1
+		pm_pr_machinery_2
+		pm_pr_machinery_3
+		pm_pr_machinery_4
+		pm_pr_machinery_5
+	}
+}
+
+#热机设备厂
+pmg_base_building_motor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_engines_1
+		pm_engines_2
+		pm_engines_3
+		pm_engines_4
+		pm_engines_5
+	}
+}
+
+#汽车厂
+pmg_base_building_automobiles_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_automobiles_1
+		pm_automobiles_2
+	}
+}
+
+#马车厂
+pmg_base_building_carriage_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_carriage_1
+		pm_carriage_2
+		pm_carriage_3
+		pm_carriage_4
+		pm_carriage_5
+	}
+}
+
+#水泥厂
+pmg_base_building_cement_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_cement_1
+		pm_cement_2
+		pm_cement_3
+		pm_cement_4
+		pm_cement_5
+	}
+}

@@ -1,0 +1,121 @@
+pm_sulfur_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_tools_add = 4.5
+			goods_input_wood_add = 16
+
+
+            # output goods
+            goods_output_sulfur_add = 27
+        }
+    }
+}
+
+pm_sulfur_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		nitroglycerin
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_mine
+		pm_watertube_boiler_mine
+		pm_rotary_valve_engine_mine
+		pm_assembly_lines_mine
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_explosives_add = 20
+
+            # output goods
+            goods_output_sulfur_add = 54
+        }
+
+		unscaled = {
+			building_laborers_mortality_mult = 0.3
+			building_machinists_mortality_mult = 0.2
+			building_engineers_mortality_mult = 0.1
+		}
+    }
+}
+
+pm_sulfur_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		nitroglycerin
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_mine
+		pm_rotary_valve_engine_mine
+		pm_assembly_lines_mine
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_explosives_add = 30
+
+            # output goods
+            goods_output_sulfur_add = 71
+        }
+
+		unscaled = {
+			building_laborers_mortality_mult = 0.15
+			building_machinists_mortality_mult = 0.1
+			building_engineers_mortality_mult = 0.05
+		}
+    }
+}
+
+pm_sulfur_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		dynamite
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_mine
+		pm_assembly_lines_mine
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_explosives_add = 40
+
+            # output goods
+            goods_output_sulfur_add = 108
+        }
+    }
+}
+
+pm_sulfur_5 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		dynamite
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_mine
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_explosives_add = 50
+
+            # output goods
+            goods_output_sulfur_add = 135
+        }
+    }
+}

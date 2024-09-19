@@ -1,0 +1,81 @@
+pm_photo_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_chemicals_add = 9
+            goods_input_camera_add = 2
+            goods_input_lead_add = 9
+            # output goods
+            goods_output_photo_add = 33
+        }
+    }
+}
+pm_photo_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		crystal_glass
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_2
+		pm_services_shop_3
+		pm_services_shop_4
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_chemicals_add = 12
+            goods_input_camera_add = 6
+            goods_input_steel_add = 12
+
+            # output goods
+            goods_output_photo_add = 66
+        }
+    }
+}
+pm_photo_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		rubber_mastication
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_3
+		pm_services_shop_4
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_chemicals_add = 15
+            goods_input_camera_add = 10
+            goods_input_film_strip_add = 22.5
+            # output goods
+            goods_output_photo_add = 99
+        }
+    }
+}
+pm_photo_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	unlocking_technologies = {
+		modern_financial_instruments
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_4
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_chemicals_add = 18
+            goods_input_camera_add = 14
+            goods_input_lamp_add = 4
+            goods_input_film_strip_add = 27
+            # output goods
+            goods_output_photo_add = 132
+        }
+    }
+}

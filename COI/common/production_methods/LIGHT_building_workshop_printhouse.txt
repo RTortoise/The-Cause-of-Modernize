@@ -1,0 +1,244 @@
+pm_print_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_paper_add = 20
+            # output goods
+            goods_output_publication_add = 30
+        }
+	}
+}
+pm_print_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    unlocking_technologies = {
+		mechanized_workshops 
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_paper_add = 30
+			goods_input_dye_add = 5
+            # output goods
+            goods_output_publication_add = 70
+        }
+	}
+}
+pm_print_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		rubber_mastication
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_chemicals_add = 5
+            goods_input_paper_add = 40
+			goods_input_dye_add = 10
+            # output goods
+            goods_output_publication_add = 110
+        }
+    }
+}
+pm_print_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	unlocking_technologies = {
+		conveyors
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_chemicals_add = 10
+            goods_input_paper_add = 50
+			goods_input_dye_add = 10
+			goods_input_electricity_add = 5
+            # output goods
+            goods_output_publication_add = 150
+        }
+    }
+}
+pm_newspaper_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+    unlocking_technologies = {
+		mechanized_workshops 
+	}
+	workforce_scaled = {
+		# input goods
+		goods_input_paper_add = 20
+		# output goods
+		goods_output_publication_add = 40
+	}
+#我想加一个减法令花费的unscaled，但是懒了
+}
+pm_newspaper_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	unlocking_technologies = {
+		electrical_generation
+	}
+	workforce_scaled = {
+		# input goods
+		goods_input_paper_add = 30
+		goods_input_electricity_add= 5
+		# output goods
+		goods_output_publication_add = 100
+	}
+}
+pm_newspaper_no = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+
+}
+
+pm_amateur_editor = {
+	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_market_access_price_impact = -0.001
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 3
+			goods_input_engines_add = 0.75
+			goods_input_general_machinery_add = 1.05
+			goods_input_transportation_add = 1
+			# output goods
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2800
+			building_employment_machinists_add = 500
+			building_employment_clerk_add = 200
+			goods_input_engines_mult = -0.0025
+			goods_input_general_machinery_mult = -0.0025
+		}
+	}
+	
+	#required_input_goods = coal
+	#required_input_goods = engines
+	#required_input_goods = general_machinery
+}
+pm_writer_guilds = {
+	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_market_access_price_impact = -0.002
+		}
+	}
+	
+	unlocking_technologies = {
+		academia
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 3
+			goods_input_engines_add = 0.75
+			goods_input_general_machinery_add = 1.05
+			goods_input_transportation_add = 1
+
+			# output goods
+			
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 500
+			building_employment_clerk_add = 500
+			goods_input_engines_mult = -0.0025
+			goods_input_general_machinery_mult = -0.0025
+		}
+	}
+	
+	#required_input_goods = coal
+	#required_input_goods = engines
+	#required_input_goods = general_machinery
+}
+pm_specialist_censorship = {
+	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_market_access_price_impact = -0.003
+		}
+	}
+	
+	unlocking_technologies = {
+		dialectics
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 4.5
+			goods_input_engines_add = 0.85
+			goods_input_general_machinery_add = 1.15
+			goods_input_precision_machinery_add = 0.13
+			goods_input_transportation_add = 2
+
+			# output goods
+			
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerk_add = 1000
+			building_employment_machinists_add = 800
+			building_employment_engineers_add = 100
+			building_employment_academics_add = 100
+			goods_input_engines_mult = -0.0025
+			goods_input_general_machinery_mult = -0.0025
+			goods_input_precision_machinery_mult = -0.0025
+		}
+	}
+	#required_input_goods = general_machinery
+	#required_input_goods = precision_machinery
+	#required_input_goods = coal
+	#required_input_goods = engines
+}
+pm_professional_journal = {
+	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_market_access_price_impact = -0.004
+		}
+	}
+	
+	unlocking_technologies = {
+		philosophical_pragmatism
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 6
+			goods_input_engines_add = 0.85
+			goods_input_general_machinery_add = 1.25
+			goods_input_precision_machinery_add = 0.22
+			goods_input_transportation_add = 3
+
+			# output goods
+			
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 500
+			building_employment_clerk_add = 1000
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 250
+			building_employment_engineers_add = 250
+			goods_input_engines_mult = -0.0025
+			goods_input_general_machinery_mult = -0.0025
+			goods_input_precision_machinery_mult = -0.0025
+		}
+	}
+	#required_input_goods = general_machinery
+	#required_input_goods = precision_machinery
+	#required_input_goods = coal
+	#required_input_goods = engines
+}

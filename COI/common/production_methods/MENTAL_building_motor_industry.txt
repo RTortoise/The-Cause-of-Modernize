@@ -1,0 +1,183 @@
+pm_engines_1 = {
+	texture = "gfx/interface/icons/production_method_icons/steamworks.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 15
+			goods_input_coal_add = 5
+
+			# output goods
+			goods_output_engines_add = 24
+		}
+	}
+}
+
+pm_engines_2 = {
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	
+	unlocking_technologies = {
+		watertube_boiler
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 38
+
+			# output goods
+			goods_output_engines_add = 48
+		}
+	}
+}
+
+pm_engines_3 = {
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	
+	unlocking_technologies = {
+		rotary_valve_engine
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 30
+			goods_input_alloy_products_add = 21
+
+			# output goods
+			goods_output_engines_add = 72
+		}
+	}
+}
+
+pm_engines_4 = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_engines.dds"
+	
+	unlocking_technologies = {
+		combustion_engine
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 40
+			goods_input_alloy_products_add = 28
+
+			# output goods
+			goods_output_engines_add = 96
+		}
+	}
+}
+
+pm_engines_5 = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_engines.dds"
+	
+	unlocking_technologies = {
+		compression_ignition
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 50
+			goods_input_alloy_products_add = 35
+
+			# output goods
+			goods_output_engines_add = 120
+		}
+	}
+}
+
+###OLD###
+
+pm_steam_engines = {
+	texture = "gfx/interface/icons/production_method_icons/steamworks.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 30
+			
+			goods_output_engines_add = 40
+		}
+	}
+}
+
+pm_electric_engines = {
+	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	unlocking_technologies = {
+		electric_railway
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 40
+			goods_input_electricity_add = 30
+			
+			# output goods
+			goods_output_engines_add = 80
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_diesel_engines = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_engines.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	unlocking_technologies = {
+		compression_ignition
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 50
+			goods_input_oil_add = 50
+			
+			# output goods
+			goods_output_engines_add = 120
+		}
+	}
+}

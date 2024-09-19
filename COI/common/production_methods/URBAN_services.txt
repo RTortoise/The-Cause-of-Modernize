@@ -1,0 +1,334 @@
+pm_market_stalls = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_services_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+}
+pm_market_stalls_2 = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_services_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+}
+pm_market_stalls_3 = {
+	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_services_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+}
+
+
+
+pm_market_squares = {
+	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
+
+	unlocking_technologies = { urban_planning }
+
+	building_modifiers = {
+		workforce_scaled = {
+            goods_input_fruit_add = 0.1
+            goods_input_meat_add = 0.1
+			goods_input_groceries_add = 0.12
+			goods_input_staple_food_add = 0.13
+            goods_input_liquor_add = 0.17
+			goods_input_transportation_add = 0.05
+			goods_output_services_add = 7
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+}
+pm_market_squares_2 = {
+	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
+
+	unlocking_technologies = { urban_planning }
+
+	building_modifiers = {
+		workforce_scaled = {
+            goods_input_fruit_add = 0.1
+            goods_input_meat_add = 0.1
+			goods_input_groceries_add = 0.12
+			goods_input_staple_food_add = 0.13
+            goods_input_liquor_add = 0.17
+			goods_input_transportation_add = 0.05
+			goods_output_services_add = 7
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+}
+pm_market_squares_3 = {
+	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
+
+	unlocking_technologies = { urban_planning }
+
+	building_modifiers = {
+		workforce_scaled = {
+            goods_input_fruit_add = 0.1
+            goods_input_meat_add = 0.1
+			goods_input_groceries_add = 0.12
+			goods_input_staple_food_add = 0.13
+            goods_input_liquor_add = 0.17
+			goods_input_transportation_add = 0.05
+			goods_output_services_add = 7
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+}
+
+
+pm_covered_markets = {
+	texture = "gfx/interface/icons/production_method_icons/covered_markets.dds"
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 0.1
+            goods_input_meat_add = 0.1
+			goods_input_groceries_add = 0.15
+			goods_input_staple_food_add = 0.15
+            goods_input_liquor_add = 0.2
+			#goods_input_draft_animal_add = 0.2
+			#goods_input_carriage_add = 0.15
+			goods_input_transportation_add = 0.63
+			goods_output_services_add = 8.5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 835
+			building_employment_clerks_add = 630
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_covered_markets_2 = {
+	texture = "gfx/interface/icons/production_method_icons/covered_markets.dds"
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 0.1
+            goods_input_meat_add = 0.1
+			goods_input_groceries_add = 0.15
+			goods_input_staple_food_add = 0.15
+            goods_input_liquor_add = 0.2
+			#goods_input_draft_animal_add = 0.2
+			#goods_input_carriage_add = 0.15
+			goods_input_transportation_add = 0.63
+			goods_output_services_add = 8.5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 835
+			building_employment_clerks_add = 630
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_covered_markets_3 = {
+	texture = "gfx/interface/icons/production_method_icons/covered_markets.dds"
+	unlocking_technologies = {
+		steel_frame_buildings
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 0.1
+            goods_input_meat_add = 0.1
+			goods_input_groceries_add = 0.15
+			goods_input_staple_food_add = 0.15
+            goods_input_liquor_add = 0.2
+			#goods_input_draft_animal_add = 0.2
+			#goods_input_carriage_add = 0.15
+			goods_input_transportation_add = 0.63
+			goods_output_services_add = 8.5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 835
+			building_employment_clerks_add = 630
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+pm_arcades = {
+	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
+	unlocking_technologies = {
+		elevator
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 0.2
+            goods_input_meat_add = 0.2
+			goods_input_groceries_add = 0.2
+			goods_input_staple_food_add = 0.2
+            goods_input_liquor_add = 0.3
+			goods_input_electricity_add = 0.5
+			#goods_input_fuel_oil_add = 0.4
+			#goods_input_automobiles_add = 0.2
+			goods_input_transportation_add = 1.07
+			goods_output_services_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 335
+			building_employment_clerks_add = 1000
+			building_employment_shopkeepers_add = 330
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+
+	required_input_goods = electricity
+}
+pm_arcades_2 = {
+	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
+	unlocking_technologies = {
+		elevator
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 0.2
+            goods_input_meat_add = 0.2
+			goods_input_groceries_add = 0.2
+			goods_input_staple_food_add = 0.2
+            goods_input_liquor_add = 0.3
+			goods_input_electricity_add = 0.5
+			#goods_input_fuel_oil_add = 0.4
+			#goods_input_automobiles_add = 0.2
+			goods_input_transportation_add = 1.07
+			goods_output_services_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 335
+			building_employment_clerks_add = 1000
+			building_employment_shopkeepers_add = 330
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+
+	required_input_goods = electricity
+}
+pm_arcades_3 = {
+	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
+	unlocking_technologies = {
+		elevator
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 0.2
+            goods_input_meat_add = 0.2
+			goods_input_groceries_add = 0.2
+			goods_input_staple_food_add = 0.2
+            goods_input_liquor_add = 0.3
+			goods_input_electricity_add = 0.5
+			#goods_input_fuel_oil_add = 0.4
+			#goods_input_automobiles_add = 0.2
+			goods_input_transportation_add = 1.07
+			goods_output_services_add = 10
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 335
+			building_employment_clerks_add = 1000
+			building_employment_shopkeepers_add = 330
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 3
+		}
+	}
+
+	required_input_goods = electricity
+}

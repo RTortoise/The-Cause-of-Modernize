@@ -1,0 +1,94 @@
+
+pm_muskets = {
+	texture = "gfx/interface/icons/production_method_icons/muskets.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 10
+			goods_input_hardwood_add = 10
+			
+			# output goods
+			goods_output_small_arms_add = 30
+		}
+	}
+}
+
+pm_rifles = {
+	texture = "gfx/interface/icons/production_method_icons/rifles.dds"
+	
+	unlocking_technologies = {
+		rifling
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 10
+			goods_input_hardwood_add = 10
+			goods_input_tools_add = 5
+			
+			# output goods
+			goods_output_small_arms_add = 50
+		}
+	}
+}
+
+pm_repeaters = {
+	texture = "gfx/interface/icons/production_method_icons/repeaters.dds"
+	
+	unlocking_technologies = {
+		repeaters
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 20
+			goods_input_hardwood_add = 10
+			goods_input_tools_add = 10
+			
+			# output goods
+			goods_output_small_arms_add = 70
+		}
+	}
+}
+
+pm_bolt_action_rifles = {
+	texture = "gfx/interface/icons/production_method_icons/bolt_action_rifles.dds"
+	
+	unlocking_technologies = {
+		bolt_action_rifles
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 20
+			goods_input_hardwood_add = 10
+			goods_input_tools_add = 20
+			goods_input_oil_add = 10
+			
+			# output goods
+			goods_output_small_arms_add = 100
+		}
+	}
+}

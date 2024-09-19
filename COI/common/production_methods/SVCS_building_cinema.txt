@@ -1,0 +1,39 @@
+pm_film_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		film
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_film_strip_add = 12
+            goods_input_camera_add = 1.5
+            goods_input_lamp_add = 6
+            # output goods
+            goods_output_film_add = 45
+        }
+    }
+}
+pm_film_4= {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+    	unlocking_technologies = {
+		modern_financial_instruments
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_4
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_film_strip_add = 16
+            goods_input_camera_add = 2
+            goods_input_lamp_add = 6
+
+            # output goods
+            goods_output_film_add = 60
+        }
+    }
+}

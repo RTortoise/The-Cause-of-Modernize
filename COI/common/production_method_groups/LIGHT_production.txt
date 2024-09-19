@@ -1,0 +1,347 @@
+﻿#印刷厂
+pmg_base_building_print_studio = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_print_1
+		pm_print_2
+		pm_print_3
+		pm_print_4
+
+	}
+}
+pmg_base_building_newspaper_studio = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_newspaper_no
+		pm_newspaper_1
+		pm_newspaper_2
+	}
+}
+
+
+#木材厂
+pmg_hardwood_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_hardwood_1
+		pm_hardwood_2
+		pm_hardwood_3
+		pm_hardwood_4
+		pm_hardwood_5
+	}
+}
+
+#零食厂
+pmg_base_building_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_groceries_1
+		pm_groceries_2
+		pm_groceries_3
+		pm_groceries_4
+		pm_groceries_5
+	}
+}
+
+#面粉厂
+pmg_base_building_staple_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_staple_food_1
+		pm_staple_food_2
+		pm_staple_food_3
+		pm_staple_food_4
+		pm_staple_food_5
+	}
+}
+
+#榨油厂
+pmg_base_building_edible_oil_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_edible_oil_1
+		pm_edible_oil_2
+		pm_edible_oil_3
+		pm_edible_oil_4
+		pm_edible_oil_5
+	}
+}
+
+#烈酒厂
+pmg_base_building_liquor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_liquor_1
+		pm_liquor_2
+		pm_liquor_3
+		pm_liquor_4
+		pm_liquor_5
+	}
+}
+
+#葡萄酒厂
+pmg_base_building_wine_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_wine_1
+		pm_wine_2
+		pm_wine_3
+		pm_wine_4
+		pm_wine_5
+	}
+}
+
+#肉罐头厂
+pmg_base_building_canned_meat_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_canned_meat_1
+		pm_canned_meat_2
+		pm_canned_meat_3
+		pm_canned_meat_4
+		pm_canned_meat_5
+	}
+}
+
+#织布厂
+pmg_base_building_textile_mills_cotton = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_cotton_cloth_1
+		pm_cotton_cloth_2
+		pm_cotton_cloth_3
+		pm_cotton_cloth_4
+		pm_cotton_cloth_5
+	}
+}
+pmg_base_building_textile_mills_wollen = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_wollen_0
+		pm_wollen_1
+		pm_wollen_2
+		pm_wollen_3
+		pm_wollen_4
+		pm_wollen_5
+	}
+}
+
+#制衣厂
+pmg_base_building_clothes_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_clothes_1
+		pm_clothes_2
+		pm_clothes_3
+		pm_clothes_4
+		pm_clothes_5
+	}
+}
+pmg_base_building_clothes_mills_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_rough_clothes_0
+		pm_rough_clothes_1
+		pm_rough_clothes_2
+		pm_rough_clothes_3
+		pm_rough_clothes_4
+		pm_rough_clothes_5
+	}
+}
+
+#奢侈衣物厂
+pmg_base_building_luxury_clothes_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_luxury_clothes_1
+		pm_luxury_clothes_2
+		pm_luxury_clothes_3
+		pm_luxury_clothes_4
+		pm_luxury_clothes_5
+	}
+}
+
+#家具厂
+pmg_base_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_furniture_1
+		pm_furniture_2
+		pm_furniture_3
+		pm_furniture_4
+		pm_furniture_5
+	}
+}
+
+#奢侈家具厂
+pmg_base_building_luxury_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_luxury_furniture_1
+		pm_luxury_furniture_2
+		pm_luxury_furniture_3
+		pm_luxury_furniture_4
+		pm_luxury_furniture_5
+	}
+}
+
+#玻璃厂
+pmg_base_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_forest_glass
+		pm_leaded_glass
+		pm_crystal_glass
+		pm_crystal_glass_2
+		pm_houseware_plastics
+	}
+}
+
+#瓷器厂
+pmg_base_building_porcelain_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_porcelain_1
+		pm_porcelain_2
+		pm_porcelain_3
+		pm_porcelain_4
+		pm_porcelain_5
+	}
+}
+
+#制鞋
+pmg_base_building_footwear_with_natural_materials = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_footwear_1
+		pm_footwear_2
+		pm_footwear_3
+		pm_footwear_4
+		pm_footwear_5
+	}
+}
+
+
+#制鞋_人工材料
+pmg_base_building_footwear_with_artificial_materials = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_footwear_with_artificial_materials_0
+		pm_footwear_with_artificial_materials_1
+		pm_footwear_with_artificial_materials_2
+		pm_footwear_with_artificial_materials_3
+		pm_footwear_with_artificial_materials_4
+		pm_footwear_with_artificial_materials_5
+	}
+}
+
+#制革
+pmg_base_building_tannery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_tanning_1
+		pm_tanning_2
+		pm_tanning_3
+		pm_tanning_4
+		pm_tanning_5
+	}
+}
+
+#钟表
+pmg_base_building_timepiece_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_timepiece_1
+		pm_timepiece_2
+		pm_timepiece_3
+		pm_timepiece_4
+		pm_timepiece_5
+	}
+}
+
+#杂货
+pmg_base_sundry_goods_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_sundry_goods_1
+		pm_sundry_goods_2
+		pm_sundry_goods_3
+		pm_sundry_goods_4
+		pm_sundry_goods_5
+	}
+}
+
+#摄像机
+pmg_base_building_camera_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_camera_1
+		pm_camera_2
+		pm_camera_3
+		pm_camera_4
+		pm_camera_5
+
+	}
+}
+
+#胶卷
+pmg_base_building_film_strip_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_film_strip_3
+		pm_film_strip_4
+		pm_film_strip_5
+
+	}
+}
+
+#灯具
+pmg_base_building_lamp_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_lamp_1
+		pm_lamp_2
+		pm_lamp_3
+		pm_lamp_4
+		pm_lamp_5
+
+	}
+}
+
+#火柴
+pmg_base_building_match_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_match_1
+		pm_match_2
+		pm_match_3
+		pm_match_4
+		pm_match_5
+
+	}
+}
+
+#玩具
+pmg_toy = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_toy_1
+		pm_toy_2
+		pm_toy_3
+		pm_toy_4
+		pm_toy_5
+	}
+}
+#玩具_人工材料
+pmg_toy_with_artificial_materials = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_toy_with_artificial_materials_0
+		pm_toy_with_artificial_materials_1
+		pm_toy_with_artificial_materials_2
+		pm_toy_with_artificial_materials_3
+		pm_toy_with_artificial_materials_4
+		pm_toy_with_artificial_materials_5
+
+	}
+}

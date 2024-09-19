@@ -1,0 +1,110 @@
+#传统店铺
+pm_services_shop_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation1.dds"
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_transportation_add = 0.5
+            goods_input_housing_add = 1
+            goods_input_furniture_add = 1
+            goods_input_cotton_cloth_add = 0.25
+            goods_input_sundry_goods_add = 1.63
+            goods_input_tools_add = 0.25
+            goods_input_lamp_add = 0.5
+            goods_input_edible_oil_add = 0.25
+
+            # output goods
+		}
+		
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_clerks_add = 500
+		}
+	}
+}
+
+#早期蒸汽时代店铺
+pm_services_shop_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation2.dds"
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_transportation_add = 1
+            goods_input_housing_add = 2
+            goods_input_furniture_add = 1.75
+            goods_input_cotton_cloth_add = 0.5
+            goods_input_sundry_goods_add = 2.75
+            goods_input_tools_add = 0.5
+            goods_input_lamp_add = 0.75
+            goods_input_coal_add = 1
+
+            # output goods
+		}
+		
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 1000
+		}
+	}
+}
+
+#晚期蒸汽时代店铺
+pm_services_shop_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation3.dds"
+
+	unlocking_technologies = {
+		watertube_boiler
+	}
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_transportation_add = 1.5
+            goods_input_housing_add = 3
+            goods_input_furniture_add = 2.25
+            goods_input_cotton_cloth_add = 0.63
+            goods_input_sundry_goods_add = 3.5
+            goods_input_tools_add = 0.63
+            goods_input_lamp_add = 1.25
+            goods_input_fuel_oil_add = 2.25
+
+            # output goods
+		}
+		
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 1500
+		}
+	}
+}
+
+#电气时代店铺
+pm_services_shop_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/automation4.dds"
+	
+	unlocking_technologies = {
+                electrical_generation
+        }
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_transportation_add = 2
+            goods_input_housing_add = 3
+            goods_input_furniture_add = 2.75
+            goods_input_cotton_cloth_add = 0.63
+            goods_input_sundry_goods_add = 4
+            goods_input_tools_add = 0.75
+            goods_input_lamp_add = 1.75
+            goods_input_electricity_add = 3
+            goods_input_electrical_equipment_add = 0.75
+
+            # output goods
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 2000
+		}
+	}
+}

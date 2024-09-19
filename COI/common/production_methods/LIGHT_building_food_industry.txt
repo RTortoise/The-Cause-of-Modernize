@@ -1,0 +1,296 @@
+﻿pm_groceries_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 8
+			goods_input_sugar_add = 8
+
+			# output goods
+			goods_output_groceries_add = 40
+		}
+	}
+}
+
+pm_groceries_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	#unlocking_technologies = {
+		#distillation
+	#}				
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 16
+			goods_input_sugar_add = 16
+
+			# output goods
+			goods_output_groceries_add = 80
+		}
+	}
+}
+
+pm_groceries_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		baking_powder
+	}				
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 18
+			goods_input_sugar_add = 24
+			goods_input_chemicals_add = 6
+
+			# output goods
+			goods_output_groceries_add = 120
+		}
+	}
+}
+
+pm_groceries_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		vacuum_canning
+	}				
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 24
+			goods_input_sugar_add = 32
+			goods_input_chemicals_add = 8
+
+			# output goods
+			goods_output_groceries_add = 160
+		}
+	}
+}
+
+pm_groceries_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		dough_rollers
+	}				
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 30
+			goods_input_sugar_add = 40
+			goods_input_chemicals_add = 10
+
+			# output goods
+			goods_output_groceries_add = 200
+		}
+	}
+}
+
+###OLD###
+
+pm_bakery = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 40		# x20 =  800
+
+			# output goods
+			goods_output_groceries_add = 45	# x30 = 1350
+		}
+	}
+}		
+
+pm_sweeteners = {
+	texture = "gfx/interface/icons/production_method_icons/sweeteners.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 40		# x20 = 800
+			goods_input_sugar_add = 15		# x30 = 450
+ 
+			# output goods
+			goods_output_groceries_add = 65	# x30 = 1950
+		}
+	}
+}
+
+pm_baking_powder = {
+	texture = "gfx/interface/icons/production_method_icons/baking_powder.dds"
+	
+	unlocking_technologies = {
+		baking_powder
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 80		# x20 = 1600
+			goods_input_sugar_add = 30		# x30 =  900
+
+			# output goods
+			goods_output_groceries_add = 120	# x30 = 3600
+		}
+	}
+}
+
+pm_disabled_canning = {
+	texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
+}
+
+pm_cannery = {
+	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
+	
+	unlocking_technologies = {
+		canneries
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = -20		# x20 = -400
+			goods_input_fish_add = 30		# x20 =  600
+			goods_input_iron_add = 10		# x40 =  400
+			
+			# output goods
+			goods_output_groceries_add = 30	# x30 =  900
+		}
+	}
+}
+
+pm_vacuum_canning = {
+	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
+	
+	unlocking_technologies = {
+		vacuum_canning
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = -30		# x20 = -600
+			goods_input_fish_add = 30		# x20 = 600
+			goods_input_meat_add = 20		# x30 = 600
+			goods_input_iron_add = 10		# x40 =  400
+			goods_input_oil_add = 5 			# x40 =  200
+			
+			# output goods
+			goods_output_groceries_add = 60	# x30 = 1800
+		}
+	}
+}
+
+pm_disabled_distillery = {
+	texture = "gfx/interface/icons/production_method_icons/no_distillery.dds"
+}
+
+pm_pot_stills = {
+	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
+
+	unlocking_technologies = {
+		distillation				
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sugar_add = 25				# x30 =  750
+			
+			# output goods
+			goods_output_liquor_add = 60				# x30 = 1800
+			goods_output_groceries_add = -30 		# x30 = -900
+		}
+	}
+}
+
+pm_patent_stills = {
+	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sugar_add = 25				# x30 =   750
+			goods_input_glass_add = 10				# x40 =   400
+			
+			# output goods
+			goods_output_liquor_add = 100			# x30 =  3000
+			goods_output_groceries_add = -40			# x30 = -1200
+		}
+	}
+}

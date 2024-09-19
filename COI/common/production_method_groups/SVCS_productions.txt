@@ -1,0 +1,44 @@
+#服务业店铺
+pmg_services_shop = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_services_shop_1
+		pm_services_shop_2
+		pm_services_shop_3
+		pm_services_shop_4
+	}
+}
+
+#餐厅
+pmg_base_building_restaurant = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_catering_1
+		pm_catering_2
+		pm_catering_3
+		pm_catering_4
+	}
+}
+
+#电影院
+pmg_base_building_cinema = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_film_3
+		pm_film_4
+
+	}
+}
+
+#房屋
+pmg_base_building_housing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_1
+		pm_housing_2
+		pm_housing_3
+		pm_housing_4
+		pm_housing_5
+
+	}
+}

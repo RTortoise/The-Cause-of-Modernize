@@ -1,0 +1,481 @@
+﻿
+###industrial###
+
+alloy = {
+	texture = "gfx/interface/icons/goods_icons/alloy.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+alloy_products = {
+	texture = "gfx/interface/icons/goods_icons/alloy_products.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+oil = {
+	texture = "gfx/interface/icons/goods_icons/oil.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+fuel_oil = {
+	texture = "gfx/interface/icons/goods_icons/fuel_oil.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+cement = {
+	texture = "gfx/interface/icons/goods_icons/cement.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+carriage = {
+	texture = "gfx/interface/icons/goods_icons/carriage.dds"
+	cost = 60
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 3.5
+	convoy_cost_multiplier = 0.25
+}
+
+chemicals = {
+	texture = "gfx/interface/icons/goods_icons/chemicals.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+	traded_quantity = 10
+}
+
+plastics = {
+	texture = "gfx/interface/icons/goods_icons/plastics.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+	
+	traded_quantity = 10
+}
+
+salt = {
+	texture = "gfx/interface/icons/goods_icons/salt.dds"
+	cost = 10
+	category = industrial
+	
+	prestige_factor = 5
+	
+	traded_quantity = 10
+}
+
+general_machinery = {
+	texture = "gfx/interface/icons/goods_icons/general_machinery.dds"
+	cost = 60
+	category = industrial
+	
+	prestige_factor = 10
+	
+	traded_quantity = 4
+	convoy_cost_multiplier = 1.5
+}
+
+precision_machinery = {
+	texture = "gfx/interface/icons/goods_icons/precision_machinery.dds"
+	cost = 80
+	category = industrial
+	
+	prestige_factor = 10
+	
+	traded_quantity = 4
+	convoy_cost_multiplier = 1.5
+}
+
+electronic_component = {
+	texture = "gfx/interface/icons/goods_icons/electronic_component.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+electrical_equipment = {
+	texture = "gfx/interface/icons/goods_icons/electrical_equipment.dds"
+	cost = 80
+	category = industrial
+	
+	prestige_factor = 10
+	
+	traded_quantity = 4
+	convoy_cost_multiplier = 1.5
+}
+
+electrical_engines = {
+	texture = "gfx/interface/icons/goods_icons/electrical_engines.dds"
+	cost = 80
+	category = industrial
+	
+	prestige_factor = 10
+	
+	traded_quantity = 4
+	convoy_cost_multiplier = 1.5
+}
+
+
+###staple###
+
+detergent = {
+	texture = "gfx/interface/icons/goods_icons/detergent.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 5
+	consumption_tax_cost = 200
+}
+
+draft_animal = {
+	texture = "gfx/interface/icons/goods_icons/draft_animal.dds"
+	cost = 50
+	category = staple
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+cotton = {
+	texture = "gfx/interface/icons/goods_icons/cotton.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 5
+}
+
+animal_product = {
+	texture = "gfx/interface/icons/goods_icons/animal_product.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 5
+}
+
+staple_food = {
+	texture = "gfx/interface/icons/goods_icons/staple_food.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 300
+}
+
+edible_oil = {
+	texture = "gfx/interface/icons/goods_icons/edible_oil.dds"
+	cost = 60
+	category = staple
+	
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 200
+}
+
+footwear = {
+	texture = "gfx/interface/icons/goods_icons/footwear.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 300
+}
+
+leather_goods = {
+	texture = "gfx/interface/icons/goods_icons/leather_goods.dds"
+	cost = 60
+	category = staple
+	
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 300
+}
+
+toy = {
+	texture = "gfx/interface/icons/goods_icons/toy.dds"
+	cost = 20
+	category = staple
+	
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 300
+}
+
+sundry_goods = {
+	texture = "gfx/interface/icons/goods_icons/sundry_goods.dds"
+	cost = 20
+	category = staple
+	
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+}
+
+lamp = {
+	texture = "gfx/interface/icons/goods_icons/unused/lightbulbs.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+}
+
+
+match = {
+	texture = "gfx/interface/icons/goods_icons/match.dds"
+	cost = 10
+	category = staple
+	traded_quantity = 10
+	prestige_factor = 4
+}
+
+perform = {
+	texture = "gfx/interface/icons/goods_icons/perform.dds"
+	cost = 50
+	category = staple
+	local = yes
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+catering = {
+	texture = "gfx/interface/icons/goods_icons/catering.dds"
+	cost = 30
+	category = staple
+	local = yes
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 200
+}
+
+health_care = {
+	texture = "gfx/interface/icons/goods_icons/health_care.dds"
+	cost = 50
+	category = staple
+	local = yes
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+post = {
+	texture = "gfx/interface/icons/goods_icons/post.dds"
+	cost = 30
+	category = staple
+	local = yes
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+film = {
+	texture = "gfx/interface/icons/goods_icons/film.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 5
+	
+	traded_quantity = 7.5
+	consumption_tax_cost = 200
+}
+
+photo = {
+	texture = "gfx/interface/icons/goods_icons/photo.dds"
+	cost = 50
+	category = staple
+	local = yes
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+rough_clothes = {
+	texture = "gfx/interface/icons/goods_icons/rough_clothes.dds"
+	cost = 20
+	category = staple
+	
+	prestige_factor = 3
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 300
+}
+
+cotton_cloth = {
+	texture = "gfx/interface/icons/goods_icons/cotton_cloth.dds"
+	cost = 30
+	category = staple
+	
+	prestige_factor = 3
+	
+	traded_quantity = 10
+	convoy_cost_multiplier = 0.25
+	
+	consumption_tax_cost = 300
+}
+
+
+film_strip = {
+	texture = "gfx/interface/icons/goods_icons/film_strip.dds"
+	cost = 40
+	category = staple
+	
+	prestige_factor = 5
+}
+
+###luxury###
+
+canned_meat = {
+	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	cost = 40
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 4
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.75
+	
+	consumption_tax_cost = 200
+}
+
+cigarette = {
+	texture = "gfx/interface/icons/goods_icons/cigarette.dds"
+	cost = 30
+	category = luxury
+	
+	obsession_chance = 2.0
+	prestige_factor = 4
+	convoy_cost_multiplier = 0.75
+}
+
+pharmaceutical = {
+	texture = "gfx/interface/icons/goods_icons/pharmaceutical.dds"
+	cost = 40
+	category = luxury
+	
+	prestige_factor = 5
+	obsession_chance = 2.0
+	
+	convoy_cost_multiplier = 0.75
+}
+
+timepiece = {
+	texture = "gfx/interface/icons/goods_icons/timepiece.dds"
+	cost = 60
+	category = luxury
+	
+	prestige_factor = 5
+}
+
+camera = {
+	texture = "gfx/interface/icons/goods_icons/camera.dds"
+	cost = 60
+	category = luxury
+	
+	prestige_factor = 5
+}
+
+
+publication = {
+	texture = "gfx/interface/icons/goods_icons/newspaper.dds"
+	cost = 30
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 8
+	
+}
+
+housing = {
+	texture = "gfx/interface/icons/goods_icons/housing.dds"
+	cost = 100
+	category = luxury
+	local = yes
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 300
+}
+
+stock = {
+	texture = "gfx/interface/icons/goods_icons/stock.dds"
+	cost = 10
+	category = luxury
+	
+	prestige_factor = 10
+	
+	consumption_tax_cost = 300
+}
+
+cosmetics = {
+	texture = "gfx/interface/icons/goods_icons/cosmetics.dds"
+	cost = 60
+	category = luxury
+	
+	prestige_factor = 5
+	obsession_chance = 2.0
+	consumption_tax_cost = 200
+}
+
+meat = {
+	texture = "gfx/interface/icons/goods_icons/meat.dds"
+	cost = 30
+	category = luxury
+	
+	traded_quantity = 7.5
+	convoy_cost_multiplier = 0.75
+	prestige_factor = 4
+	
+	consumption_tax_cost = 200
+}
+###military###

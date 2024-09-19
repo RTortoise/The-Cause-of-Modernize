@@ -1,0 +1,419 @@
+﻿#窑炉作坊
+pmg_workshop_kiln_production_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_forest_glass_1
+		pm_workshop_ceramics_1
+		pm_workshop_cement_1_1
+		
+		pm_workshop_leaded_glass_1
+		pm_workshop_bone_china_1
+		pm_workshop_cement_2_1
+	}
+}
+
+pmg_workshop_kiln_production_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_forest_glass_2
+		pm_workshop_ceramics_2
+		pm_workshop_cement_1_2
+		
+		pm_workshop_leaded_glass_2
+		pm_workshop_bone_china_2
+		pm_workshop_cement_2_2
+	}
+}
+
+pmg_workshop_kiln_production_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_forest_glass_3
+		pm_workshop_ceramics_3
+		pm_workshop_cement_1_3
+		
+		pm_workshop_leaded_glass_3
+		pm_workshop_bone_china_3
+		pm_workshop_cement_2_3
+	}
+}
+
+pmg_workshop_kiln_production_4 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_forest_glass_4
+		pm_workshop_ceramics_4
+		pm_workshop_cement_1_4
+		
+		pm_workshop_leaded_glass_4
+		pm_workshop_bone_china_4
+		pm_workshop_cement_2_4
+	}
+}
+
+#日用品作坊
+pmg_workshop_daily_production_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_1
+		pm_workshop_sundry_goods_1_1
+		pm_workshop_match_1_1
+		pm_workshop_toy_1_1
+		
+		pm_workshop_sulfite_pulping_1
+		pm_workshop_sundry_goods_2_1
+		pm_workshop_match_2_1
+		pm_workshop_toy_2_1
+	}
+}
+pmg_workshop_daily_production_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_2
+		pm_workshop_sundry_goods_1_2
+		pm_workshop_match_1_2
+		pm_workshop_toy_1_2
+		
+		pm_workshop_sulfite_pulping_2
+		pm_workshop_sundry_goods_2_2
+		pm_workshop_match_2_2
+		pm_workshop_toy_2_2
+	}
+}
+pmg_workshop_daily_production_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_3
+		pm_workshop_sundry_goods_1_3
+		pm_workshop_match_1_3
+		pm_workshop_toy_1_3
+		
+		pm_workshop_sulfite_pulping_3
+		pm_workshop_sundry_goods_2_3
+		pm_workshop_match_2_3
+		pm_workshop_toy_2_3
+	}
+}
+pmg_workshop_daily_production_4 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_4
+		pm_workshop_sundry_goods_1_4
+		pm_workshop_match_1_4
+		pm_workshop_toy_1_4
+		
+		pm_workshop_sulfite_pulping_4
+		pm_workshop_sundry_goods_2_4
+		pm_workshop_match_2_4
+		pm_workshop_toy_2_4
+	}
+}
+
+#食品作坊
+pmg_workshop_food_production_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_staple_food_1_1
+		pm_workshop_edible_oil_1_1
+		pm_workshop_liquor_1_1
+		pm_workshop_wine_1_1
+		
+		pm_workshop_staple_food_2_1
+		pm_workshop_edible_oil_2_1
+		pm_workshop_liquor_2_1
+		pm_workshop_wine_2_1
+	}
+}
+
+pmg_workshop_food_production_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_staple_food_1_2
+		pm_workshop_edible_oil_1_2
+		pm_workshop_liquor_1_2
+		pm_workshop_wine_1_2
+		
+		pm_workshop_staple_food_2_2
+		pm_workshop_edible_oil_2_2
+		pm_workshop_liquor_2_2
+		pm_workshop_wine_2_2
+	}
+}
+
+pmg_workshop_food_production_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_staple_food_1_3
+		pm_workshop_edible_oil_1_3
+		pm_workshop_liquor_1_3
+		pm_workshop_wine_1_3
+		
+		pm_workshop_staple_food_2_3
+		pm_workshop_edible_oil_2_3
+		pm_workshop_liquor_2_3
+		pm_workshop_wine_2_3
+	}
+}
+
+pmg_workshop_food_production_4 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_staple_food_1_4
+		pm_workshop_edible_oil_1_4
+		pm_workshop_liquor_1_4
+		pm_workshop_wine_1_4
+		
+		pm_workshop_staple_food_2_4
+		pm_workshop_edible_oil_2_4
+		pm_workshop_liquor_2_4
+		pm_workshop_wine_2_4
+	}
+}
+
+# 纺织作坊
+pmg_workshop_textile_production_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_cotton_cloth_1_1
+		pm_workshop_woolen_cloth_1_1
+		pm_workshop_clothes_1_1
+		pm_workshop_luxury_cloth_1_1
+		pm_workshop_footwear_1_1
+		pm_workshop_tanning_1_1
+		
+		pm_workshop_cotton_cloth_2_1
+		pm_workshop_woolen_cloth_2_1
+		pm_workshop_clothes_2_1
+		pm_workshop_luxury_clothes_2_1
+		pm_workshop_footwear_2_1
+		pm_workshop_tanning_2_1
+	}
+}
+
+pmg_workshop_textile_production_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_cotton_cloth_1_2
+		pm_workshop_woolen_cloth_1_2
+		pm_workshop_clothes_1_2
+		pm_workshop_luxury_clothes_1_2
+		pm_workshop_footwear_1_2
+		pm_workshop_tanning_1_2
+		
+		pm_workshop_cotton_cloth_2_2
+		pm_workshop_woolen_cloth_2_2
+		pm_workshop_clothes_2_2
+		pm_workshop_luxury_clothes_2_2
+		pm_workshop_footwear_2_2
+		pm_workshop_tanning_2_2
+	}
+}
+
+pmg_workshop_textile_production_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_cotton_cloth_1_3
+		pm_workshop_woolen_cloth_1_3
+		pm_workshop_clothes_1_3
+		pm_workshop_luxury_cloth_1_3
+		pm_workshop_footwear_1_3
+		pm_workshop_tanning_1_3
+		
+		pm_workshop_cotton_cloth_2_3
+		pm_workshop_woolen_cloth_2_3
+		pm_workshop_clothes_2_3
+		pm_workshop_luxury_clothes_2_3
+		pm_workshop_footwear_2_3
+		pm_workshop_tanning_2_3
+	}
+}
+
+pmg_workshop_textile_production_4 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_cotton_cloth_1_4
+		pm_workshop_woolen_cloth_1_4
+		pm_workshop_clothes_1_4
+		pm_workshop_luxury_cloth_1_4
+		pm_workshop_footwear_1_4
+		pm_workshop_tanning_1_4
+		
+		pm_workshop_cotton_cloth_2_4
+		pm_workshop_woolen_cloth_2_4
+		pm_workshop_clothes_2_4
+		pm_workshop_luxury_clothes_2_4
+		pm_workshop_footwear_2_4
+		pm_workshop_tanning_2_4
+	}
+}
+
+#日用品作坊
+pmg_workshop_daily_production_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_1
+		pm_workshop_sundry_goods_1_1
+		pm_workshop_match_1_1
+		pm_workshop_toy_1_1
+		
+		pm_workshop_sulfite_pulping_1
+		pm_workshop_sundry_goods_2_1
+		pm_workshop_match_2_1
+		pm_workshop_toy_2_1
+	}
+}
+pmg_workshop_daily_production_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_2
+		pm_workshop_sundry_goods_1_2
+		pm_workshop_match_1_2
+		pm_workshop_toy_1_2
+		
+		pm_workshop_sulfite_pulping_2
+		pm_workshop_sundry_goods_2_2
+		pm_workshop_match_2_2
+		pm_workshop_toy_2_2
+	}
+}
+pmg_workshop_daily_production_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_3
+		pm_workshop_sundry_goods_1_3
+		pm_workshop_match_1_3
+		pm_workshop_toy_1_3
+		
+		pm_workshop_sulfite_pulping_3
+		pm_workshop_sundry_goods_2_3
+		pm_workshop_match_2_3
+		pm_workshop_toy_2_3
+	}
+}
+pmg_workshop_daily_production_4 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_pulp_pressing_4
+		pm_workshop_sundry_goods_1_4
+		pm_workshop_match_1_4
+		pm_workshop_toy_1_4
+		
+		pm_workshop_sulfite_pulping_4
+		pm_workshop_sundry_goods_2_4
+		pm_workshop_match_2_4
+		pm_workshop_toy_2_4
+	}
+}
+
+#金属作坊
+pmg_workshop_metal_production_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_crude_tools
+		pm_workshop_muskets
+		pm_workshop_cannons_1
+		
+		pm_workshop_pig_iron
+		pm_workshop_rifles
+		pm_workshop_cannons_2
+	}
+}
+pmg_workshop_metal_production_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_crude_tools_2
+		pm_workshop_muskets_2
+		pm_workshop_cannons_1_2
+		
+		pm_workshop_pig_iron_2
+		pm_workshop_rifles_2
+		pm_workshop_cannons_2_2
+	}
+}
+pmg_workshop_metal_production_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_crude_tools_3
+		pm_workshop_muskets_3
+		pm_workshop_cannons_1_3
+		
+		pm_workshop_pig_iron_3
+		pm_workshop_rifles_3
+		pm_workshop_cannons_2_3
+	}
+}
+pmg_workshop_metal_production_4 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_crude_tools_4
+		pm_workshop_muskets_4
+		pm_workshop_cannons_1_4
+		
+		pm_workshop_pig_iron_4
+		pm_workshop_rifles_4
+		pm_workshop_cannons_2_4
+	}
+}
+
+#木器作坊
+pmg_workshop_woodcraft_production_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_hardwood
+		pm_workshop_handcrafted_furniture
+		pm_workshop_carriage_1
+		pm_workshop_luxury_furniture_1
+		
+		pm_workshop_advanced_chopping
+		pm_workshop_lathe
+		pm_workshop_carriage_2
+		pm_workshop_luxury_furniture_2
+	}
+}
+
+pmg_workshop_woodcraft_production_2 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_hardwood_2
+		pm_workshop_handcrafted_furniture_2
+		pm_workshop_carriage_1_2
+		pm_workshop_luxury_furniture_1_2
+		
+		pm_workshop_advanced_chopping_2
+		pm_workshop_lathe_2
+		pm_workshop_carriage_2_2
+		pm_workshop_luxury_furniture_2_2
+	}
+}
+
+pmg_workshop_woodcraft_production_3 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_hardwood_3
+		pm_workshop_handcrafted_furniture_3
+		pm_workshop_carriage_1_3
+		pm_workshop_luxury_furniture_1_3
+		
+		pm_workshop_advanced_chopping_3
+		pm_workshop_lathe_3
+		pm_workshop_carriage_2_3
+		pm_workshop_luxury_furniture_2_3
+	}
+}
+
+pmg_workshop_woodcraft_production_4 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_workshop_hardwood_4
+		pm_workshop_handcrafted_furniture_4
+		pm_workshop_carriage_1_4
+		pm_workshop_luxury_furniture_1_4
+		
+		pm_workshop_advanced_chopping_4
+		pm_workshop_lathe_4
+		pm_workshop_carriage_2_4
+		pm_workshop_luxury_furniture_2_4
+	}
+}
+
+

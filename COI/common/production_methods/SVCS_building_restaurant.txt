@@ -1,0 +1,105 @@
+pm_catering_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_staple_food_add = 6
+            goods_input_groceries_add = 2
+            goods_input_fruit_add = 1
+            goods_input_meat_add = 2
+            goods_input_edible_oil_add = 0.5
+            goods_input_liquor_add = 3
+
+            # output goods
+            goods_output_services_add = 49
+        }
+    }
+}
+
+pm_catering_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+
+	unlocking_technologies = {
+		central_banking
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_2
+		pm_services_shop_3
+		pm_services_shop_4
+	}
+	
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_staple_food_add = 12
+            goods_input_groceries_add = 4
+            goods_input_fruit_add = 2
+            goods_input_meat_add = 4
+            goods_input_edible_oil_add = 1
+            goods_input_liquor_add = 6
+
+            # output goods
+            goods_output_services_add = 98
+        }
+    }
+}
+
+pm_catering_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_3
+		pm_services_shop_4
+	}
+	
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_staple_food_add = 18
+            goods_input_groceries_add = 6
+            goods_input_fruit_add = 3
+            goods_input_meat_add = 6
+            goods_input_edible_oil_add = 1.5
+            goods_input_liquor_add = 9
+
+            # output goods
+            goods_output_services_add = 147
+        }
+    }
+}
+
+pm_catering_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+
+	unlocking_technologies = {
+		modern_financial_instruments
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_4
+	}
+	
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_staple_food_add = 24
+            goods_input_groceries_add = 8
+            goods_input_fruit_add = 4
+            goods_input_meat_add = 8
+            goods_input_edible_oil_add = 2
+            goods_input_liquor_add = 12
+
+            # output goods
+            goods_output_services_add = 196
+        }
+    }
+}

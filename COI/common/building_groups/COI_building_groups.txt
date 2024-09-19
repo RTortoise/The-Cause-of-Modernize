@@ -1,0 +1,57 @@
+﻿bg_street_service = {
+	category = urban
+    lens = urban
+
+	always_possible = yes
+	
+	cash_reserves_max = 25000
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+    
+	urbanization = 10
+}
+
+bg_house = {
+
+	category = development
+	lens = urban	
+
+	always_possible = yes
+	
+	economy_of_scale = no
+	
+	cash_reserves_max = 25000
+
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 1.0
+	foreign_investment_ai_factor = 0.5
+	
+	urbanization = -100
+}
+
+bg_workshop = {
+	category = urban
+	lens = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+	foreign_investment_ai_factor = 0.25
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+}

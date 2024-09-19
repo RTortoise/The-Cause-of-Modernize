@@ -1,0 +1,161 @@
+﻿#食品作坊
+building_workshop_food = {
+	building_group = bg_workshop
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_workshop_food_production_1
+		pmg_workshop_food_production_2
+		pmg_workshop_food_production_3
+		pmg_workshop_food_production_4
+		pmg_workshop_automation_light
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#纺织作坊
+building_workshop_textile = {
+	building_group = bg_workshop
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_workshop_textile_production_1
+		pmg_workshop_textile_production_2
+		pmg_workshop_textile_production_3
+		pmg_workshop_textile_production_4
+		pmg_workshop_automation_light
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#日用品作坊
+building_workshop_daily = {
+	building_group = bg_workshop
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_workshop_daily_production_1
+		pmg_workshop_daily_production_2
+		pmg_workshop_daily_production_3
+		pmg_workshop_daily_production_4
+		pmg_workshop_automation_light
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#窑炉作坊
+building_workshop_kiln = {
+	building_group = bg_workshop
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_workshop_kiln_production_1
+		pmg_workshop_kiln_production_2
+		pmg_workshop_kiln_production_3
+		pmg_workshop_kiln_production_4
+		pmg_workshop_automation_light
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+#金属作坊
+building_workshop_metal = {
+	building_group = bg_workshop
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_workshop_metal_production_1
+		pmg_workshop_metal_production_2
+		pmg_workshop_metal_production_3
+		pmg_workshop_metal_production_4
+		pmg_workshop_automation_light
+	}
+
+	required_construction = construction_cost_high
+}
+
+#木器作坊
+building_workshop_woodcraft = {
+	building_group = bg_workshop
+	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_workshop_woodcraft_production_1
+		pmg_workshop_woodcraft_production_2
+		pmg_workshop_woodcraft_production_3
+		pmg_workshop_woodcraft_production_4
+		pmg_workshop_automation_light
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+

@@ -1,0 +1,60 @@
+pmg_base_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_open_air_stockyards
+		pm_ranch_animal_product_1_1
+		pm_ranch_draft_animal_1_1
+		pm_butchering_tools
+		pm_ranch_animal_product_2_1
+		pm_ranch_draft_animal_2_1
+		pm_slaughterhouses
+		pm_ranch_animal_product_3_1
+		pm_ranch_draft_animal_3_1
+		pm_mechanized_slaughtering
+		pm_ranch_animal_product_4_1
+		pm_ranch_draft_animal_4_1
+	}
+}
+
+pmg_sheep_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_ranch
+		pm_simple_ranch_2
+		pm_simple_ranch_3
+		pm_sheep_farms
+		pm_sheep_farms_2
+		pm_sheep_farms_3
+		pm_intensive_grazing_ranch
+		pm_intensive_grazing_ranch_2
+		pm_intensive_grazing_ranch_3
+		pm_ranch_meat_4_2
+		pm_ranch_animal_product_4_2
+		pm_ranch_draft_animal_4_2
+	}
+}
+
+pmg_fencing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_standard_fences
+		pm_ranch_animal_product_1_3
+		pm_ranch_draft_animal_1_3
+		pm_barbed_wire_fences
+		pm_ranch_animal_product_2_3
+		pm_ranch_draft_animal_2_3
+		pm_electric_fencing
+		pm_ranch_animal_product_3_3
+		pm_ranch_draft_animal_3_3
+		pm_ranch_meat_4_3
+		pm_ranch_animal_product_4_3
+		pm_ranch_draft_animal_4_3
+	}
+}
+
+pmg_simple_whaling = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_whaling
+	}
+}

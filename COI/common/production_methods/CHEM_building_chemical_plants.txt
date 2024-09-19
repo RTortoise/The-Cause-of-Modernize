@@ -1,0 +1,268 @@
+pm_fertilizer_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_sulfur_add = 24
+
+            # output goods
+            goods_output_fertilizer_add = 62
+        }
+    }
+}
+
+pm_fertilizer_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_sulfur_add = 28
+            goods_input_chemicals_add = 48
+
+            # output goods
+            goods_output_fertilizer_add = 124
+        }
+    }
+}
+
+pm_fertilizer_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_sulfur_add = 42
+            goods_input_chemicals_add = 72
+
+            # output goods
+            goods_output_fertilizer_add = 186
+        }
+    }
+}
+
+pm_fertilizer_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
+
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_sulfur_add = 56
+            goods_input_chemicals_add = 96
+
+            # output goods
+            goods_output_fertilizer_add = 248
+        }
+    }
+}
+
+pm_fertilizer_5 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 30
+		}
+	}
+
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_sulfur_add = 70
+            goods_input_chemicals_add = 120
+
+            # output goods
+            goods_output_fertilizer_add = 310
+        }
+    }
+}
+
+###OLD###
+pm_artificial_fertilizers = {
+	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 30
+			goods_input_iron_add = 10
+
+			# output goods
+			goods_output_fertilizer_add = 90
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_artificial_fertilizers_2 = {
+	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 10
+			goods_input_chemicals_add = 50
+			goods_input_iron_add = 10
+
+			# output goods
+			goods_output_fertilizer_add = 90
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_improved_fertilizer = {
+	texture = "gfx/interface/icons/production_method_icons/improved_fertilizer.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_sulfur_add = 10
+			goods_input_chemicals_add = 50
+			goods_input_iron_add = 30
+
+			# output goods
+			goods_output_fertilizer_add = 140
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_nitrogen_fixation = {
+	texture = "gfx/interface/icons/production_method_icons/nitrogen_fixation.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 30
+			goods_input_chemicals_add = 125
+			goods_input_oil_add = 20
+			goods_input_iron_add = 30
+
+			# output goods
+			goods_output_fertilizer_add = 200
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+		}
+	}
+}

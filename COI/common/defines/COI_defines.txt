@@ -1,0 +1,18 @@
+﻿NPolitics = {
+	# Allow AI to consider more alternatives.
+	# Sometimes a lower clout government can still give high legitimacy if the ruler supports it.
+	# This should be fine performance-wise since AI only reforms government every 30 months
+	MAX_GOVERNMENT_ALTERNATIVES_TO_CONSIDER_AI = 256 # When evaluating government reform options (for AI), only consider this many constellations (sorted by average clout, descending) [>=1]
+}
+NEconomy = {
+	TRADE_ROUTE_BUREAUCRACY_COST = 5					# The cost in BUR per trade route
+	PRICE_RANGE = 0.99							# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
+	BUY_SELL_DIFF_AT_MAX_FACTOR = 2.35				# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
+	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.5		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
+	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.001  	# Goods shortage penalty increases by this fraction of the target each day
+    GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.01  	# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
+    GOODS_SHORTAGE_PENALTY_MIN = 0.01			# Goods shortage penalty can't be lower than this if there is any shortage
+	GOODS_SHORTAGE_PENALTY_MAX = 0.99			# Goods shortage penalty can't be higher than this
+	TRADE_ROUTE_USE_AVERAGE_PRE_AND_POST_TRADE_PRICES = yes			# Whether trade routes should use an average of pre and post-trade prices or just market prices (0 = market prices, 1 = pre/post trade prices)
+
+}

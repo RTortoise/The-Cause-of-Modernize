@@ -1,0 +1,113 @@
+
+pm_luxury_clothes_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_cotton_cloth_add = 5
+			goods_input_silk_add = 8
+
+			# output goods
+			goods_output_luxury_clothes_add = 22
+		}
+	}
+}
+
+pm_luxury_clothes_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}				
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_cotton_cloth_add = 10
+			goods_input_silk_add = 16
+
+			# output goods
+			goods_output_luxury_clothes_add = 44
+		}
+	}
+}
+
+pm_luxury_clothes_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		mechanized_workshops
+	}				
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_cotton_cloth_add = 15
+			goods_input_silk_add = 24
+
+			# output goods
+			goods_output_luxury_clothes_add = 66
+		}
+	}
+}
+
+pm_luxury_clothes_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		shift_work
+	}				
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_cotton_cloth_add = 20
+			goods_input_silk_add = 32
+
+			# output goods
+			goods_output_luxury_clothes_add = 44
+		}
+	}
+}
+
+pm_luxury_clothes_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}				
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_cotton_cloth_add = 25
+			goods_input_silk_add = 40
+
+			# output goods
+			goods_output_luxury_clothes_add = 110
+		}
+	}
+}

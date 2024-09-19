@@ -1,0 +1,101 @@
+pm_urban_management_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 5001
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.3
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = -4
+			state_construction_mult = -0.0015
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled ={
+			country_prestige_add = -0.5
+		}
+	}
+}
+
+pm_urban_management_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+
+	unlocking_technologies = {
+		tech_bureaucracy
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 3334
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.2
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = -3
+			state_construction_mult = -0.001
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled ={
+			country_prestige_add = -0.3
+			country_bureaucracy_add = -1
+		}
+	}
+}
+
+pm_urban_management_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+
+	unlocking_technologies = {
+		central_archives
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 1667
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = -1
+			state_construction_mult = -0.0005
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled ={
+			country_prestige_add = -0.1
+			country_bureaucracy_add = -3
+		}
+	}
+}
+
+pm_urban_management_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+
+	unlocking_technologies = {
+		identification_documents
+	}
+
+	country_modifiers = {
+		workforce_scaled ={
+			country_bureaucracy_add = -5
+		}
+	}
+}

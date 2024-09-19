@@ -1,0 +1,88 @@
+pm_elec_cmpnt_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 18
+			goods_input_lead_add = 24
+			goods_input_rubber_add = 9
+			goods_input_chemicals_add = 21
+
+			# output goods
+			goods_output_electronic_component_add = 114
+		}
+	}
+}
+
+pm_elec_cmpnt_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20
+			goods_input_lead_add = 32
+			goods_input_rubber_add = 12
+			goods_input_chemicals_add = 24
+			goods_input_porcelain_add = 4
+
+			# output goods
+			goods_output_electronic_component_add = 142
+		}
+	}
+}
+
+pm_elec_cmpnt_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	
+	unlocking_technologies = {
+		radio
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 25
+			goods_input_lead_add = 40
+			goods_input_rubber_add = 15
+			goods_input_chemicals_add = 30
+			goods_input_porcelain_add = 5
+
+			# output goods
+			goods_output_electronic_component_add = 190
+		}
+	}
+}
+

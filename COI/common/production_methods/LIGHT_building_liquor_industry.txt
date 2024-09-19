@@ -1,0 +1,118 @@
+pm_liquor_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 14
+			goods_input_glass_add = 3
+
+			# output goods
+			goods_output_liquor_add = 38
+		}
+	}
+}
+
+pm_liquor_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 26
+			goods_input_glass_add = 6
+			goods_input_chemicals_add = 2
+
+			# output goods
+			goods_output_liquor_add = 76
+		}
+	}
+}
+
+pm_liquor_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		baking_powder
+	}				
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 39
+			goods_input_glass_add = 9
+			goods_input_chemicals_add = 3
+
+			# output goods
+			goods_output_liquor_add = 114
+		}
+	}
+}
+
+pm_liquor_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		vacuum_canning
+	}				
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 52
+			goods_input_glass_add = 12
+			goods_input_chemicals_add = 4
+
+			# output goods
+			goods_output_liquor_add = 152
+		}
+	}
+}
+
+pm_liquor_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		automatic_bottle_blowers
+	}				
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 65
+			goods_input_glass_add = 15
+			goods_input_chemicals_add = 5
+
+			# output goods
+			goods_output_liquor_add = 190
+		}
+	}
+}
+
+

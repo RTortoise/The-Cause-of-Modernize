@@ -1,0 +1,152 @@
+pm_alloy_production_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20
+			goods_input_lead_add = 18
+			goods_input_coal_add = 10
+
+			# output goods
+			goods_output_alloy_add = 50
+		}
+	}
+}
+
+pm_alloy_production_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	
+	unlocking_technologies = {
+		bessemer_process
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 36
+			goods_input_coal_add = 20
+			goods_input_steel_add = 32
+
+			# output goods
+			goods_output_alloy_add = 100
+		}
+	}
+}
+
+pm_alloy_production_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+	
+	unlocking_technologies = {
+		bessemer_process
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 48
+			goods_input_coal_add = 30
+			goods_input_steel_add = 48
+			goods_input_chemicals_add = 12
+
+			# output goods
+			goods_output_alloy_add = 150
+		}
+	}
+}
+
+pm_alloy_production_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
+	
+	unlocking_technologies = {
+		open_hearth_process
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 64
+			goods_input_coal_add = 40
+			goods_input_steel_add = 64
+			goods_input_chemicals_add = 16
+
+			# output goods
+			goods_output_alloy_add = 200
+		}
+	}
+}
+
+pm_alloy_production_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 30
+		}
+	}
+	
+	unlocking_technologies = {
+		electric_arc_process
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 80
+			goods_input_coal_add = 50
+			goods_input_steel_add = 80
+			goods_input_chemicals_add = 20
+
+			# output goods
+			goods_output_alloy_add = 250
+		}
+	}
+}
+
+

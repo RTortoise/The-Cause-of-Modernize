@@ -1,0 +1,94 @@
+pm_urban_housing_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 7
+            goods_input_fabric_add = 2
+
+            # output goods
+            goods_output_housing_add = 4
+        }
+    }
+}
+
+pm_urban_housing_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    unlocking_technologies = {
+        urban_planning
+    }
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 10
+            goods_input_cement_add = 4
+			goods_input_glass_add = 2
+            goods_input_iron_add = 1
+
+            # output goods
+            goods_output_housing_add = 8
+        }
+    }
+}
+
+pm_urban_housing_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+    unlocking_technologies = {
+        reinforced_concrete
+    }
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_steel_add = 8
+            goods_input_cement_add = 8
+			goods_input_glass_add = 4
+            goods_input_tools_add = 4
+
+            # output goods
+            goods_output_housing_add = 12
+        }
+    }
+}
+
+pm_urban_housing_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+    unlocking_technologies = {
+        steel_frame_buildings
+    }
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_steel_add = 12
+            goods_input_cement_add = 10
+			goods_input_glass_add = 5
+            goods_input_tools_add = 5
+
+            # output goods
+            goods_output_housing_add = 16
+        }
+    }
+}
+
+pm_urban_housing_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+    unlocking_technologies = {
+        elevator
+    }
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_steel_add = 14
+            goods_input_cement_add = 10
+			goods_input_glass_add = 8
+            goods_input_tools_add = 6
+			goods_input_electricity_add = 2
+            # output goods
+            goods_output_housing_add = 20
+        }
+    }
+}

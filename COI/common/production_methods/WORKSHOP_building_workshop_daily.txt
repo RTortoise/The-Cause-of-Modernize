@@ -1,0 +1,606 @@
+#造纸
+pm_workshop_pulp_pressing_1 = {
+	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"			
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 7.5
+			
+			# output goods
+			goods_output_paper_add = 10
+		}
+	}
+}
+
+pm_workshop_sulfite_pulping_1 = {
+	texture = "gfx/interface/icons/production_method_icons/sulfite_pulping.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 1
+		}
+	}
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 6
+			goods_input_chemicals_add = 5
+			
+			# output goods
+			goods_output_paper_add = 14
+		}
+	}
+}
+pm_workshop_pulp_pressing_2 = {
+	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"			
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 7.5
+			
+			# output goods
+			goods_output_paper_add = 10
+		}
+	}
+}
+
+pm_workshop_sulfite_pulping_2 = {
+	texture = "gfx/interface/icons/production_method_icons/sulfite_pulping.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 1
+		}
+	}
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 6
+			goods_input_chemicals_add = 5
+			
+			# output goods
+			goods_output_paper_add = 14
+		}
+	}
+}
+pm_workshop_pulp_pressing_3 = {
+	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"			
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 7.5
+			
+			# output goods
+			goods_output_paper_add = 10
+		}
+	}
+}
+
+pm_workshop_sulfite_pulping_3 = {
+	texture = "gfx/interface/icons/production_method_icons/sulfite_pulping.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 1
+		}
+	}
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 6
+			goods_input_chemicals_add = 5
+			
+			# output goods
+			goods_output_paper_add = 14
+		}
+	}
+}
+pm_workshop_pulp_pressing_4 = {
+	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"			
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 7.5
+			
+			# output goods
+			goods_output_paper_add = 10
+		}
+	}
+}
+
+pm_workshop_sulfite_pulping_4 = {
+	texture = "gfx/interface/icons/production_method_icons/sulfite_pulping.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 1
+		}
+	}
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 6
+			goods_input_chemicals_add = 5
+			
+			# output goods
+			goods_output_paper_add = 14
+		}
+	}
+}
+#杂货品
+pm_workshop_sundry_goods_1_1 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = 1
+                        goods_input_iron_add = 0.75
+                        goods_input_hardwood_add = 0.5
+                        goods_input_glass_add = 0.5
+
+                        # output goods
+                        goods_output_sundry_goods_add = 16.87
+                }
+        }
+}
+
+pm_workshop_sundry_goods_2_1 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        
+        unlocking_technologies = {
+                mechanical_tools
+        }
+        
+        unlocking_production_methods = {
+                pm_workshop_atmospheric_engine_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = 1.6
+                        goods_input_iron_add = 1.2
+                        goods_input_hardwood_add = 1.2
+                        goods_input_dye_add = 1.2
+                        goods_input_glass_add = 1.2
+
+                        # output goods
+                        goods_output_sundry_goods_add = 27
+                }
+        }
+}
+pm_workshop_sundry_goods_1_2 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = 1
+                        goods_input_iron_add = 0.75
+                        goods_input_hardwood_add = 0.5
+                        goods_input_glass_add = 0.5
+
+                        # output goods
+                        goods_output_sundry_goods_add = 16.87
+                }
+        }
+}
+
+pm_workshop_sundry_goods_2_2 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        
+        unlocking_technologies = {
+                mechanical_tools
+        }
+        
+        unlocking_production_methods = {
+                pm_workshop_atmospheric_engine_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = 1.6
+                        goods_input_iron_add = 1.2
+                        goods_input_hardwood_add = 1.2
+                        goods_input_dye_add = 1.2
+                        goods_input_glass_add = 1.2
+
+                        # output goods
+                        goods_output_sundry_goods_add = 27
+                }
+        }
+}
+pm_workshop_sundry_goods_1_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = 1
+                        goods_input_iron_add = 0.75
+                        goods_input_hardwood_add = 0.5
+                        goods_input_glass_add = 0.5
+
+                        # output goods
+                        goods_output_sundry_goods_add = 16.87
+                }
+        }
+}
+
+pm_workshop_sundry_goods_2_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        
+        unlocking_technologies = {
+                mechanical_tools
+        }
+        
+        unlocking_production_methods = {
+                pm_workshop_atmospheric_engine_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = 1.6
+                        goods_input_iron_add = 1.2
+                        goods_input_hardwood_add = 1.2
+                        goods_input_dye_add = 1.2
+                        goods_input_glass_add = 1.2
+
+                        # output goods
+                        goods_output_sundry_goods_add = 27
+                }
+        }
+}
+pm_workshop_sundry_goods_1_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_cotton_cloth_add = 1
+                        goods_input_iron_add = 0.75
+                        goods_input_hardwood_add = 0.5
+                        goods_input_glass_add = 0.5
+
+                        # output goods
+                        goods_output_sundry_goods_add = 16.87
+                }
+        }
+}
+
+pm_workshop_sundry_goods_2_4= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        
+        unlocking_technologies = {
+                mechanical_tools
+        }
+        
+        unlocking_production_methods = {
+                pm_workshop_atmospheric_engine_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        goods_input_cotton_cloth_add = 1.6
+                        goods_input_iron_add = 1.2
+                        goods_input_hardwood_add = 1.2
+                        goods_input_dye_add = 1.2
+                        goods_input_glass_add = 1.2
+
+                        # output goods
+                        goods_output_sundry_goods_add = 27
+                }
+        }
+}
+
+#火柴
+pm_workshop_match_1_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 3.25
+            goods_input_sulfur_add = 1.75
+
+            # output goods
+            goods_output_match_add = 36.75
+        }
+    }
+}
+pm_workshop_match_2_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe 
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 5.2
+            goods_input_sulfur_add = 2.8
+
+
+            # output goods
+            goods_output_match_add =58.8
+        }
+    }
+}
+pm_workshop_match_1_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 3.25
+            goods_input_sulfur_add = 1.75
+
+            # output goods
+            goods_output_match_add = 36.75
+        }
+    }
+}
+pm_workshop_match_2_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe 
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 5.2
+            goods_input_sulfur_add = 2.8
+
+
+            # output goods
+            goods_output_match_add =58.8
+        }
+    }
+}
+pm_workshop_match_1_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 3.25
+            goods_input_sulfur_add = 1.75
+
+            # output goods
+            goods_output_match_add = 36.75
+        }
+    }
+}
+pm_workshop_match_2_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe 
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 5.2
+            goods_input_sulfur_add = 2.8
+
+
+            # output goods
+            goods_output_match_add =58.8
+        }
+    }
+}
+pm_workshop_match_1_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 3.25
+            goods_input_sulfur_add = 1.75
+
+            # output goods
+            goods_output_match_add = 36.75
+        }
+    }
+}
+pm_workshop_match_2_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe 
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 5.2
+            goods_input_sulfur_add = 2.8
+
+
+            # output goods
+            goods_output_match_add =58.8
+        }
+    }
+}
+
+#玩具
+pm_workshop_toy_1_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 1.38
+            goods_input_cotton_cloth_add = 1.5
+
+            # output goods
+            goods_output_toy_add = 14.25
+        }
+    }
+}
+pm_workshop_toy_2_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 2
+            goods_input_cotton_cloth_add = 2
+            goods_input_iron_add = 0.5
+
+            # output goods
+            goods_output_toy_add = 22.8
+        }
+    }
+}
+pm_workshop_toy_1_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 1.38
+            goods_input_cotton_cloth_add = 1.5
+
+            # output goods
+            goods_output_toy_add = 14.25
+        }
+    }
+}
+pm_workshop_toy_2_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 2
+            goods_input_cotton_cloth_add = 2
+            goods_input_iron_add = 0.5
+
+            # output goods
+            goods_output_toy_add = 22.8
+        }
+    }
+}
+pm_workshop_toy_1_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 1.38
+            goods_input_cotton_cloth_add = 1.5
+
+            # output goods
+            goods_output_toy_add = 14.25
+        }
+    }
+}
+pm_workshop_toy_2_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 2
+            goods_input_cotton_cloth_add = 2
+            goods_input_iron_add = 0.5
+
+            # output goods
+            goods_output_toy_add = 22.8
+        }
+    }
+}
+pm_workshop_toy_1_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 1.38
+            goods_input_cotton_cloth_add = 1.5
+
+            # output goods
+            goods_output_toy_add = 14.25
+        }
+    }
+}
+pm_workshop_toy_2_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		lathe
+	}
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_hardwood_add = 2
+            goods_input_cotton_cloth_add = 2
+            goods_input_iron_add = 0.5
+
+            # output goods
+            goods_output_toy_add = 22.8
+        }
+    }
+}

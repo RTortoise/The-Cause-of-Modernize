@@ -1,0 +1,156 @@
+pm_cosmetics_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_lead_add = 1.5
+            goods_input_dye_add = 3.5
+            goods_input_liquor_add = 2
+            goods_input_edible_oil_add = 2.5
+
+            # output goods
+            goods_output_cosmetics_add = 20
+		}
+	}
+}
+
+pm_cosmetics_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_lead_add = 3
+            goods_input_dye_add = 7
+            goods_input_liquor_add = 4
+            goods_input_edible_oil_add = 5
+            goods_input_chemicals_add = 12
+
+            # output goods
+            goods_output_cosmetics_add = 44
+		}
+	}
+}
+
+pm_cosmetics_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	
+	unlocking_technologies = {
+		rubber_mastication
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_lead_add = 4.5
+            goods_input_dye_add = 10.5
+            goods_input_liquor_add = 6
+            goods_input_edible_oil_add = 7.5
+            goods_input_chemicals_add = 18
+
+            # output goods
+            goods_output_cosmetics_add = 66
+		}
+	}
+}
+
+pm_cosmetics_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+	
+	unlocking_technologies = {
+		aniline
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_lead_add = 6
+            goods_input_dye_add = 14
+            goods_input_liquor_add = 8
+            goods_input_edible_oil_add = 10
+            goods_input_chemicals_add = 24
+
+            # output goods
+            goods_output_cosmetics_add = 88
+		}
+	}
+}
+
+pm_cosmetics_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
+	
+	unlocking_technologies = {
+		automatic_bottle_blowers
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_dye_add = 25
+            goods_input_liquor_add = 10
+            goods_input_edible_oil_add = 12.5
+            goods_input_chemicals_add = 30
+
+            # output goods
+            goods_output_cosmetics_add = 110
+		}
+	}
+}
+

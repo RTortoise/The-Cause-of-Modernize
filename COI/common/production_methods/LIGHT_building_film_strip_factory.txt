@@ -1,0 +1,63 @@
+pm_film_strip_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	unlocking_technologies = {
+		rubber_mastication 
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_plastic_add = 36
+            goods_input_chemicals_add = 45
+
+            # output goods
+            goods_output_film_strip_add = 114
+        }
+    }
+}
+pm_film_strip_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	unlocking_technologies = {
+		aniline
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_plastic_add = 48
+            goods_input_chemicals_add = 60
+
+
+            # output goods
+            goods_output_film_strip_add = 152
+        }
+    }
+}
+pm_film_strip_5 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		plastics
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_plastic_add = 60
+            goods_input_chemicals_add = 75
+
+            # output goods
+            goods_output_film_strip_add = 190
+        }
+    }
+}

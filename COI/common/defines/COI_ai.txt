@@ -1,0 +1,63 @@
+﻿NAI = {
+	# Assume a war goes on for 2 years = 100 weeks
+	MOBILIZATION_OPTION_MONEY_COST_FACTOR = 100 # When checking whether the AI should activate a mobilization option, the monetary cost of activation is multiplied by this and compared against AI value to determine if it's worth it
+
+	# Make AI reform government in accordance to their strategy
+	MIN_GOVERNMENT_LEGITIMACY = 35 # If legitimacy is below this, consider adding IGs we don't really like to the government
+	REFORM_GOVERNMENT_PRO_IG_CLOUT_FACTOR = 5.0 # When scoring IGs for putting in government, add to the score multiplier (scaled by clout)
+
+	# To target a 4:3 income-to-expense ratio, this value should be at least 1.16
+	# Max value here is 1.25 (exclusive)
+	RAISE_TAX_ABOVE_DESIRED_INCOME_NO_DEBT_THRESHOLD = 1.20
+	RAISE_TAX_ABOVE_DESIRED_INCOME_WITH_DEBT_THRESHOLD = 1.20
+
+	# Make AI horde gold less
+	# Setting CONSTRUCTION_RESERVES_NEW_CONSTRUCTIONS below MONEY_SPENDING_MIN_GOLD_RESERVE_FRACTION_TO_ADD_WANTS_TO_HAVE causes the AI to neglect government buildings
+	CONSTRUCTION_RESERVES_NEW_CONSTRUCTIONS = 0.1 # If gold reserves are less than this after adding the cost of a new construction, don't queue it
+	# Set a tight limit to deficit spending so that AI doesn't chain bankruptcies
+	# AI does not intentionally deficit spend on production buildings
+	# If they ever get into debt, it's a mistake
+	CONSTRUCTION_DEBT_RESUME = 0.0 # If constructions are paused, resume once debt is this low relative to ceiling
+	CONSTRUCTION_DEBT_PAUSE = 0.05 # If in this much relative debt to debt ceiling, pause all non-critical constructions
+
+	# Reduce institution spending
+	MAX_INSTITUTION_SPENDING = 0.007 # AI will not spend more BUR than this on institutions (scaled by weekly GDP)
+	INSTITUTION_SPENDING_DECREASE_SPENDING_RATIO = 1.5 # If current institution spending is at least max spending * this, try to degrade some institutions
+
+	# This number should not exceed the threshold for raising taxes
+	MONEY_SPENDING_MIN_RATIO_TO_ADD_WANTS_TO_HAVE = 1.2 # How much of a income-to-expenses ratio does AI want to have after increasing spending for a 'wants-to-have' project
+	MONEY_SPENDING_MIN_GOLD_RESERVE_FRACTION_TO_ADD_SHOULD_HAVE = 0.05 # If we don't have at least this fraction of gold reserves, don't increase spending on a 'should-have'
+	MONEY_SPENDING_MIN_GOLD_RESERVE_FRACTION_TO_ADD_WANTS_TO_HAVE = 0.10 # If we don't have at least this fraction of gold reserves, don't increase spending on a 'wants-to-have'
+	MONEY_SPENDING_MIN_GOLD_RESERVE_FRACTION_TO_ADD_NICE_TO_HAVE = 0.30 # If we don't have at least this fraction of gold reserves, don't increase spending on a 'nice-to-have'
+
+	# Stop the arms race
+	MONEY_SPENDING_LAND_THREAT_THRESHOLD = 10000 # If a hostile country has a more than this much larger army than AI does, it wants to increase military spending
+	MONEY_SPENDING_NAVY_THREAT_THRESHOLD = 10000 # If a hostile country has a more than this much larger navy than AI does, it wants to increase military spending
+
+	# Encourage AI to construct their first construction sector
+	MONEY_SPENDING_CONSTRUCTION_CRITICAL_THRESHOLD = 0.7 # If actual-to-wanted number of construction sector buildings is below this, AI considers it very important to get more
+	MONEY_SPENDING_INNOVATION_DESIRED_THRESHOLD = 1.2 # If innovation production compared to cap is worse than this, AI considers it important to improve
+	# Building ports won't solve convoy raiding
+	MONEY_SPENDING_SUPPLY_NETWORK_CRITICAL_THRESHOLD = 0 # If supply network is worse than this, AI considers it critical to improve it
+	# Any free convoy will be claimed by trade routes immediately
+	# Setting this too high will trap the AI into building nothing but ports
+	# See also TRADE_ROUTE_REQUIRED_CONVOY_BUFFER
+	MONEY_SPENDING_SUPPLY_NETWORK_DESIRED_THRESHOLD = 1.05 # If supply network is worse than this, AI wants to improve it
+	MONEY_SPENDING_WANTED_CONVOYS_PER_BARRACKS_LEVEL = 1 # If the AI has fewer free convoys than this per level of barracks, it wants more ports
+
+	# Disable suppression because AI won't cancel it when political strategy changes
+	# Below data is used to calculate how much weight the AI places on suppressing an IG
+	SUPPRESSION_BASE_VALUE = 0
+
+	# Make the weights more neutral
+	CONSUMPTION_TAX_STAPLE_MULT = 0.8 # Multiply desire to tax staple goods by this
+	CONSUMPTION_TAX_LUXURY_MULT = 1.2 # Multiply desire to tax luxury goods by this
+
+	# This is the only parameter that is affected by goods stance
+	PRODUCTION_BUILDING_OUTPUT_HIGH_PRICE_WANTS_HIGH_SUPPLY_FACTOR = 2.0 # Add this value to a building for each unit of money worth of goods above high price threshold that this building produces and which we want a high supply of
+
+	# Don't overly penalize temporary shortages - PM changes can be undone if necessary
+	PRODUCTION_METHOD_REDUCE_OUTPUT_PENALTY_FACTOR = 4 # Multiply method score by this if we're reducing the building's output penalties
+	PRODUCTION_METHOD_INCREASE_OUTPUT_PENALTY_FACTOR = 0.8 # Multiply method score by this if we're increasing the building's output penalties
+	PRODUCTION_METHOD_UNDESIRABLE_GOODS_PRICE_FACTOR = 0 # Per base cost * units of goods whose price is above undesirable price threshold
+}

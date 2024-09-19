@@ -1,0 +1,678 @@
+pm_workshop_crude_tools = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 15
+
+			# output goods
+			goods_output_tools_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_crude_tools_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 15
+
+			# output goods
+			goods_output_tools_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_crude_tools_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 15
+
+			# output goods
+			goods_output_tools_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_crude_tools_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 15
+
+			# output goods
+			goods_output_tools_add = 25
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+pm_workshop_pig_iron = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		 steelworking
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 25
+			goods_output_tools_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_pig_iron_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		 steelworking
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 25
+			goods_output_tools_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_pig_iron_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		 steelworking
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 25
+			goods_output_tools_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_pig_iron_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		 steelworking
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 25
+			goods_output_tools_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+pm_workshop_muskets = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 8
+			goods_input_hardwood_add = 8
+			
+			# output goods
+			goods_output_small_arms_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_muskets_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 8
+			goods_input_hardwood_add = 8
+			
+			# output goods
+			goods_output_small_arms_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_muskets_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 8
+			goods_input_hardwood_add = 8
+			
+			# output goods
+			goods_output_small_arms_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_muskets_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 8
+			goods_input_hardwood_add = 8
+			
+			# output goods
+			goods_output_small_arms_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1160
+			building_employment_clerks_add = 300
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+pm_workshop_rifles = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		percussion_cap
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 8
+			goods_input_hardwood_add = 8
+			goods_input_tools_add = 5
+			
+			# output goods
+			goods_output_small_arms_add = 37.5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_rifles_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		percussion_cap
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 8
+			goods_input_hardwood_add = 8
+			goods_input_tools_add = 5
+			
+			# output goods
+			goods_output_small_arms_add = 37.5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_rifles_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		percussion_cap
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 8
+			goods_input_hardwood_add = 8
+			goods_input_tools_add = 5
+			
+			# output goods
+			goods_output_small_arms_add = 37.5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_rifles_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		percussion_cap
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 8
+			goods_input_hardwood_add = 8
+			goods_input_tools_add = 5
+			
+			# output goods
+			goods_output_small_arms_add = 37.5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+pm_workshop_cannons_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		artillery
+	}				
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 10
+			goods_input_hardwood_add = 10
+
+			# output goods
+			goods_output_artillery_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_cannons_1_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		artillery
+	}				
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 10
+			goods_input_hardwood_add = 10
+
+			# output goods
+			goods_output_artillery_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_cannons_1_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		artillery
+	}				
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 10
+			goods_input_hardwood_add = 10
+
+			# output goods
+			goods_output_artillery_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_cannons_1_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		artillery
+	}				
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 10
+			goods_input_hardwood_add = 10
+
+			# output goods
+			goods_output_artillery_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+
+
+pm_workshop_cannons_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		shell_gun
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20
+			goods_input_hardwood_add = 15
+
+			# output goods
+			goods_output_artillery_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_cannons_2_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		shell_gun
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20
+			goods_input_hardwood_add = 15
+
+			# output goods
+			goods_output_artillery_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_cannons_2_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		shell_gun
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20
+			goods_input_hardwood_add = 15
+
+			# output goods
+			goods_output_artillery_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}
+pm_workshop_cannons_2_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		shell_gun
+	}				
+	
+	unlocking_production_methods = {
+		pm_workshop_atmospheric_engine_2
+	}
+    
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20
+			goods_input_hardwood_add = 15
+
+			# output goods
+			goods_output_artillery_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 465
+			building_employment_shopkeepers_add = 135
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 4
+		}
+	}
+}

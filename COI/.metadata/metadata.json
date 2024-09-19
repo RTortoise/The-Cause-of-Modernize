@@ -1,0 +1,51 @@
+{
+  "name" : "The Most Comprehensive Industrial Expansion Mod - The Cause of Industrialize",
+  "id" : "3145030069",
+  "version" : "1.0.11",
+  "supported_game_version" : "1.7.*",
+  "short_description" : "【The Cause of Industrialize】 is a small mod about the prosperous business and industry in the Victorian era, dedicated to adding more commodities, a more complex industrial chain, and a smoother economic rhythm.
+# Add more than 40 new commodities and their production buildings, and integrate the new commodities into the old industrial chain, as follows:
+(1) Metallurgical machinery industry: add cement, alloys, alloy products, general-purpose machinery, precision machinery, the original version of the tools were changed to iron and steel products, and the power equipment was changed to thermodynamic equipment;
+(2) Chemical industry: add chemicals, cosmetics, detergents, plastics, pharmaceuticals, film;
+(3) Electronic industry: add electronic parts, electric power equipment, electrical appliances;
+(4) Food industry: staple foods, canned meat, draft animals, edible oils were added, grains were changed to crops in the original version, processed foods were changed to recreational foods, fish were deleted, and meat was changed to local commodities;
+(5) Textile industry: animal products, cotton, cotton cloth, rough clothing, footwear, leather goods added, fabric changed to hemp fiber in the original version, only low-grade rough clothing can be manufactured, clothing changed to comfort clothing in the original version, manufactured from cotton;
+(6) Daily necessities industry: add grocery items, fuel oil, toys, lamps, matches, original version of hardwood changed to wood;
+(7) Luxury goods industry: horse-drawn carriages, clocks and watches, and cameras have been added;
+(8) Urban Industries: has added houses, stocks, financial services, photographic services, catering services, performances, movies;
+#Split all the integrated buildings of the original version to ensure that each commodity has its own production building
+#Remodel & optimize the production values of the original version's buildings, etc;
+#Optimize economic pacing by adding a very small amount of building point output to the subsistence farms, allowing the globe to jumpstart the economy faster;
+#Optimize AI investment logic, AI will place more emphasis on investment in mining and forestry;
+#Optimization of economic pacing by adding PMs for town centers that produce basic industrial goods;
+#The complete transformation of the architectural framework, the core of which is the transformation of the automation PM, so that the advanced automation PM becomes a prerequisite for the advanced production of peperfan PMs, so that they have the need for mechanical goods and capacity, thus reflecting the position of the means of production (machinery) at the heart of the industrial production, and can feed the railroad buildings in line with the laws of the economy;
+# The transformation of investment, the introduction of the financial sector, the flow of funds for investment will flow in large quantities into the financial sector, which is dependent on the development of industry, and thus can realize the effect of the use of finance by the first industrial countries to loot the economies of the later countries;
+
+This mod is developed and produced by the modder team of 【The Cause of Modernization】, 【The Cause of Modernization】 is a modern background, aimed at presenting the political, economic, social, cultural and other aspects of the modernization process of the grand mod. given that the development of V3 mega mod is too much jail time, and so do so a small mod to reap the fruits of the first, like friends are welcome to add QQ group 595956038 to exchange and discuss!
+
+【工商之业】是一款关于维多利亚时代繁荣工商业的小型mod，致力于增加更多的商品，更复杂的产业链，更流畅的经济节奏。
+#新增40余种商品及其生产建筑，并将新商品融入旧有产业链，具体内容如下：
+（1）冶金机械产业：增添水泥、合金、合金制品、通用机械、精密机械，原版的工具改为钢铁制品，动力设备改为热动力设备；
+（2）化工产业：增添化学品、化妆品、洗涤剂、塑料、药品、胶卷；
+（3）电子产业：增添电子零件、电动力设备、电器；
+（4）食品产业：增添主食食品、肉罐头、役畜、食用油，原版的谷物改为农作物，加工食品改为休闲食品，鱼类删除，肉类改为本地商品；
+（5）纺织产业：增添动物产品、棉花、棉布、粗制服装、鞋类、皮具，原版的布料改为麻纤维，只能制造低级的粗制服装，原版的服装改为舒适服装，由棉布制造；
+（6）日用品产业：增添杂货品、燃料油、玩具、灯具、火柴，原版硬木改为木材；
+（7）奢侈品产业：增添马车、钟表、摄像机；
+（8）城市产业：已增添房屋、股票、金融服务、摄影服务、餐饮服务、文艺表演、电影；
+#将原版所有整合式的建筑拆分，确保每种商品都有自己的生产建筑
+#重新改造与优化原版建筑等生产数值；
+#优化经济节奏，为自给农场添加极少量的建筑点产出，使得全球能够更快地启动经济；
+#优化AI投资逻辑，AI将更加重视对矿业、林业的投资；
+#优化经济节奏，为城镇中心添加生产基本工业品的PM；
+#对建筑设计框架的全面改造，其核心是对自动化PM的改造，使高级自动化PM成为高级生产佩方PM的前提，使其具有对机械品、运力的需求，由此体现生产资料（机械）在工业生产中核心的地位，并能符合经济规律地养活铁路建筑；
+#对投资的改造，引入金融业，投资的资金流将大量流入金融业，而金融业依赖于工业的发达，由此可以实现先发工业国使用金融掠夺后发国家经济的效果；
+
+本mod由【摩登之业】制作组开发制作，【摩登之业】是一款现代背景下，旨在呈现政治、经济、社会、文化等等方面现代化过程的宏大mod。鉴于V3超大型mod的开发过于坐牢，于是做了这么个小mod先收获点成果，喜欢的朋友们欢迎加QQ群595956038交流讨论！
+",
+  "tags" : ["Balance","Economy And Buildings"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

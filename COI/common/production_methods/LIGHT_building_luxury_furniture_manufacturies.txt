@@ -1,0 +1,116 @@
+pm_luxury_furniture_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 8
+			goods_input_silk_add = 5
+
+			# output goods
+			goods_output_luxury_furniture_add = 23
+		}
+	}
+}
+
+pm_luxury_furniture_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	#unlocking_technologies = {
+		#lathe
+	#}				
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 14
+			goods_input_silk_add = 10
+			goods_input_alloy_products_add = 2
+
+			# output goods
+			goods_output_luxury_furniture_add = 46
+		}
+	}
+}
+
+pm_luxury_furniture_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		mechanized_workshops
+	}				
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 21
+			goods_input_silk_add = 15
+			goods_input_alloy_products_add = 3
+
+			# output goods
+			goods_output_luxury_furniture_add = 69
+		}
+	}
+}
+
+pm_luxury_furniture_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		shift_work
+	}				
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 28
+			goods_input_silk_add = 20
+			goods_input_alloy_products_add = 4
+
+			# output goods
+			goods_output_luxury_furniture_add = 92
+		}
+	}
+}
+
+pm_luxury_furniture_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}				
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_hardwood_add = 35
+			goods_input_silk_add = 25
+			goods_input_alloy_products_add = 5
+
+			# output goods
+			goods_output_luxury_furniture_add = 115
+		}
+	}
+}

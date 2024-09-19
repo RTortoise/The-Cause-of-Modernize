@@ -1,0 +1,69 @@
+#印刷业所有制
+pmg_automation_print = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_amateur_editor
+		pm_writer_guilds
+		pm_specialist_censorship
+		pm_professional_journal
+
+	}
+}
+
+#重工业所有制
+pmg_ownership_capital_heavy_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_merchant_guilds
+		pm_privately_owned_industry
+		pm_publicly_traded_industry
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+#轻工业所有制
+pmg_ownership_capital_light_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_merchant_guilds
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative
+	}
+}
+
+#矿业所有制
+pmg_ownership_capital_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_merchant_guilds_mine
+		pm_privately_owned_mine
+		pm_publicly_traded_mine
+		pm_government_run_mine
+		pm_worker_cooperative_mine
+	}
+}
+
+#金融业所有制
+pmg_ownership_capital_finance = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_services
+		pm_publicly_traded_services
+		pm_government_run_services
+	}
+}
+
+#服务业所有制
+pmg_ownership_capital_services = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_merchant_guilds_services
+		pm_privately_owned_services
+		pm_publicly_traded_services
+		pm_government_run_services
+		pm_worker_cooperative_services
+	}
+}

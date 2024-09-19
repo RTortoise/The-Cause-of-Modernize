@@ -1,0 +1,119 @@
+#制革
+pm_tanning_1 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_edible_oil_add = 1
+                        goods_input_animal_product_add = 16
+
+                        # output goods
+                        goods_output_leather_goods_add = 22.5
+                }
+        }
+}
+
+pm_tanning_2 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        
+        unlocking_technologies = {
+                mechanical_tools
+        }
+        
+        unlocking_production_methods = {
+                pm_atmospheric_engine_2
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_edible_oil_add = 2
+                        goods_input_sulfur_add = 4
+                        goods_input_animal_product_add = 27
+
+                        # output goods
+                        goods_output_leather_goods_add = 45
+                }
+        }
+}
+
+pm_tanning_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+        
+        unlocking_technologies = {
+                mechanized_workshops
+        }
+        
+        unlocking_production_methods = {
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                       # input goods
+                        goods_input_chemicals_add = 12
+                        goods_input_sulfur_add = 6
+                        goods_input_animal_product_add = 40
+
+                        # output goods
+                        goods_output_leather_goods_add = 67.5
+                }
+        }
+}
+
+pm_tanning_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        
+        unlocking_technologies = {
+                shift_work
+        }
+        
+        unlocking_production_methods = {
+
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_chemicals_add = 12
+                        goods_input_sulfur_add = 7.2
+                        goods_input_animal_product_add = 52
+
+                        # output goods
+                        goods_output_leather_goods_add = 90
+                }
+        }
+}
+
+pm_tanning_5= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        
+        unlocking_technologies = {
+                conveyors
+        }
+        
+        unlocking_production_methods = {
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_chemicals_add = 15
+                        goods_input_sulfur_add = 9.6
+                        goods_input_animal_product_add = 70
+
+
+                        # output goods
+                        goods_output_leather_goods_add = 112.5
+                }
+        }
+}

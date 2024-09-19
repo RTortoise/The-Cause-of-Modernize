@@ -1,0 +1,96 @@
+
+pm_cannons = {
+	texture = "gfx/interface/icons/production_method_icons/artillery_production.dds"
+	
+	unlocking_technologies = {
+		artillery
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 15
+			goods_input_hardwood_add = 10
+
+			# output goods
+			goods_output_artillery_add = 25
+		}
+	}
+}
+
+pm_smoothbores = {
+	texture = "gfx/interface/icons/production_method_icons/smoothbores.dds"
+	
+	unlocking_technologies = {
+		shell_gun
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 25
+			goods_input_hardwood_add = 15
+
+			# output goods
+			goods_output_artillery_add = 45
+		}
+	}
+}
+
+pm_breech_loaders = {
+	texture = "gfx/interface/icons/production_method_icons/breech_loading_artillery_production.dds"
+	
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 25
+			goods_input_hardwood_add = 10
+			goods_input_tools_add = 10
+
+			# output goods
+			goods_output_artillery_add = 65
+		}
+	}
+}
+
+pm_recoiled_barrels = {
+	texture = "gfx/interface/icons/production_method_icons/recoil_mechanism_artillery_production.dds"
+	
+	unlocking_technologies = {
+		automatic_machine_guns
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 40
+			goods_input_tools_add = 20
+			goods_input_oil_add = 10
+
+			# output goods
+			goods_output_artillery_add = 90
+		}
+	}
+}

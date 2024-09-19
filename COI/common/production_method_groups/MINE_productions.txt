@@ -1,0 +1,65 @@
+pmg_mining_equipment_building_coal_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_coal_1
+		pm_coal_2
+		pm_coal_3
+		pm_coal_4
+		pm_coal_5
+	}
+}
+
+pmg_mining_equipment_building_iron_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_iron_1
+		pm_iron_2
+		pm_iron_3
+		pm_iron_4
+		pm_iron_5
+	}
+}
+
+pmg_mining_equipment_building_lead_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_lead_1
+		pm_lead_2
+		pm_lead_3
+		pm_lead_4
+		pm_lead_5
+	}
+}
+
+pmg_mining_equipment_building_sulfur_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_sulfur_1
+		pm_sulfur_2
+		pm_sulfur_3
+		pm_sulfur_4
+		pm_sulfur_5
+	}
+}
+
+pmg_mining_equipment_building_gold_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_gold_1
+		pm_gold_2
+		pm_gold_3
+		pm_gold_4
+		pm_gold_5
+	}
+}
+
+pmg_mining_equipment_building_oil_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_oil_1
+		pm_oil_2
+		pm_oil_3
+		pm_oil_4
+		pm_oil_5
+	}
+}

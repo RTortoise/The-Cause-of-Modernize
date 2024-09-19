@@ -1,0 +1,120 @@
+#化学厂
+pmg_chemicals_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_chemicals_1
+		pm_chemicals_2
+		pm_chemicals_3
+		pm_chemicals_4
+		pm_chemicals_5
+	}
+}
+
+#染料合成厂
+pmg_synthetic_dyes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_dye_1
+		pm_dye_2
+		pm_dye_3
+	}
+}
+#丝绸合成厂
+pmg_synthetic_silk = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_silk_1
+		pm_silk_2
+		pm_silk_3
+	}
+}
+
+#肥料厂
+pmg_fertilizer_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fertilizer_1
+		pm_fertilizer_2
+		pm_fertilizer_3
+		pm_fertilizer_4
+		pm_fertilizer_5
+	}
+}
+
+#炸药厂
+pmg_explosives_building_chemical_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_explosives_1
+		pm_explosives_2
+		pm_explosives_3
+		pm_explosives_4
+		pm_explosives_5
+	}
+}
+
+#制药厂
+pmg_pharmaceutical_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_pharmaceutical_1
+		pm_pharmaceutical_2
+		pm_pharmaceutical_3
+		pm_pharmaceutical_4
+		pm_pharmaceutical_5
+	}
+}
+
+#化妆品厂
+pmg_cosmetics_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_cosmetics_1
+		pm_cosmetics_2
+		pm_cosmetics_3
+		pm_cosmetics_4
+		pm_cosmetics_5
+	}
+}
+
+#洗涤剂厂
+pmg_detergent_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_detergent_1
+		pm_detergent_2
+		pm_detergent_3
+		pm_detergent_4
+		pm_detergent_5
+	}
+}
+
+#塑料厂
+pmg_plastic_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_plastics_3
+		pm_plastics_4
+		pm_plastics_5
+	}
+}
+
+#石油精炼_1
+pmg_petroleum_refining_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_petroleum_refining_3
+		pm_petroleum_refining_4
+		pm_petroleum_refining_5
+	}
+}
+
+#石油精炼_2
+pmg_coal_to_oil_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_coal_to_oil_3
+		pm_coal_to_oil_4
+		pm_coal_to_oil_5
+	}
+}

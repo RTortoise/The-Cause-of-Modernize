@@ -1,0 +1,73 @@
+#塑料厂
+pm_plastics_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+
+        unlocking_technologies = {
+                plastics
+        }
+
+        unlocking_production_methods = {
+            pm_watertube_boiler
+            pm_rotary_valve_engine
+            pm_assembly_lines
+        }
+        
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_fuel_oil_add = 120
+						goods_input_chemicals_add = 10
+						goods_input_glass_add = 10
+
+                        # output goods
+                        goods_output_plastics_add = 168
+                }
+        }
+}
+
+pm_plastics_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        
+        unlocking_technologies = {
+                electrical_capacitors
+        }
+        
+        unlocking_production_methods = {
+                pm_rotary_valve_engine
+                pm_assembly_lines
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_fuel_oil_add = 180
+						goods_input_chemicals_add = 20
+
+                        # output goods
+                        goods_output_plastics_add = 224
+                }
+        }
+}
+pm_plastics_5= {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        
+        unlocking_technologies = {
+                radio
+        }
+        
+        unlocking_production_methods = {
+         	pm_assembly_lines
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_fuel_oil_add = 180
+						goods_input_chemicals_add = 20
+
+                        # output goods
+                        goods_output_plastics_add = 280
+                }
+        }
+}

@@ -1,0 +1,112 @@
+pm_canned_meat_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_meat_add = 12
+			goods_input_iron_add = 1
+
+			# output goods
+			goods_output_canned_meat_add = 30
+		}
+	}
+}
+
+pm_canned_meat_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_meat_add = 22
+			goods_input_iron_add = 2
+			goods_input_chemicals_add = 2
+
+			# output goods
+			goods_output_canned_meat_add = 60
+		}
+	}
+}
+
+pm_canned_meat_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		vacuum_canning
+	}				
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_meat_add = 33
+			goods_input_iron_add = 3
+			goods_input_chemicals_add = 3
+
+			# output goods
+			goods_output_canned_meat_add = 90
+		}
+	}
+}
+
+pm_canned_meat_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		pasteurization
+	}				
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_meat_add = 44
+			goods_input_iron_add = 4
+			goods_input_chemicals_add = 4
+
+			# output goods
+			goods_output_canned_meat_add = 120
+		}
+	}
+}
+
+pm_canned_meat_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		flash_freezing
+	}				
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_meat_add = 55
+			goods_input_iron_add = 5
+			goods_input_chemicals_add = 5
+
+			# output goods
+			goods_output_canned_meat_add = 150
+		}
+	}
+}

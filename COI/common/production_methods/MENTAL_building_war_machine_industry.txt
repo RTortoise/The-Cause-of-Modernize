@@ -1,0 +1,53 @@
+pm_aeroplane_production = {
+	texture = "gfx/interface/icons/production_method_icons/aeroplanes.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10
+			goods_input_hardwood_add = 20
+			goods_input_cotton_cloth_add = 13.35
+			goods_input_oil_add = 20
+
+			# output goods
+			goods_output_aeroplanes_add = 50
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_no_tank_production = {
+	texture = "gfx/interface/icons/production_method_icons/no_tanks.dds"
+}
+
+pm_tank_production = {
+	texture = "gfx/interface/icons/production_method_icons/tanks.dds"
+
+	unlocking_technologies = {
+		mobile_armor
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10
+			goods_input_steel_add = 20
+			goods_input_oil_add = 10
+			goods_output_aeroplanes_add = -10
+
+			# output goods
+			goods_output_tanks_add = 40
+		}
+		
+		level_scaled = {
+			# employment
+			building_employment_engineers_add = 500
+		}
+	}
+}

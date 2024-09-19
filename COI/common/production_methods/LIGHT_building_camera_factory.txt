@@ -1,0 +1,101 @@
+pm_camera_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 5
+            goods_input_tools_add = 4
+            goods_input_hardwood_add = 3
+            # output goods
+            goods_output_camera_add = 22
+        }
+    }
+}
+pm_camera_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	#unlocking_technologies = {
+		#lathe
+	#}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 10
+            goods_input_tools_add = 9
+            goods_input_steel_add = 4
+
+            # output goods
+            goods_output_camera_add = 44
+        }
+    }
+}
+pm_camera_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 15
+            goods_input_tools_add = 13.5
+            goods_input_steel_add = 6
+            # output goods
+            goods_output_camera_add = 66
+        }
+    }
+}
+pm_camera_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	unlocking_technologies = {
+		shift_work
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 18
+            goods_input_tools_add = 15
+            goods_input_steel_add = 8
+            goods_input_alloy_add = 4
+            # output goods
+            goods_output_camera_add = 88
+        }
+    }
+}
+pm_camera_5 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	unlocking_technologies = {
+		conveyors
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 22.5
+            goods_input_tools_add = 17.5
+            goods_input_steel_add = 10
+            # output goods
+            goods_output_camera_add = 110
+        }
+    }
+}

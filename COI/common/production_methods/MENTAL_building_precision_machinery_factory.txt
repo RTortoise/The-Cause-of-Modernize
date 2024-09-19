@@ -1,0 +1,112 @@
+pm_pr_machinery_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 11
+			goods_input_tools_add = 8.5
+
+			# output goods
+			goods_output_precision_machinery_add = 20
+		}
+	}
+}
+
+pm_pr_machinery_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	#unlocking_technologies = {
+		#mechanical_tools
+	#}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 20
+			goods_input_alloy_products_add = 16
+
+			# output goods
+			goods_output_precision_machinery_add = 40
+		}
+	}
+}
+
+pm_pr_machinery_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 30
+			goods_input_alloy_products_add = 24
+
+			# output goods
+			goods_output_precision_machinery_add = 60
+		}
+	}
+}
+
+pm_pr_machinery_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		shift_work
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 40
+			goods_input_alloy_products_add = 32
+
+			# output goods
+			goods_output_precision_machinery_add = 80
+		}
+	}
+}
+
+pm_pr_machinery_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 50
+			goods_input_alloy_products_add = 40
+
+			# output goods
+			goods_output_precision_machinery_add = 100
+		}
+	}
+}

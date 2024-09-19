@@ -1,0 +1,100 @@
+pm_lamp_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 7
+            goods_input_iron_add = 1
+            goods_input_coal_add = 3
+            # output goods
+            goods_output_lamp_add = 37
+        }
+    }
+}
+pm_lamp_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    	#unlocking_technologies = {
+		#lathe
+	#}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 14
+            goods_input_steel_add = 2
+            goods_input_coal_add = 6
+
+            # output goods
+            goods_output_lamp_add = 74
+        }
+    }
+}
+pm_lamp_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		electrical_generation
+	}
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 21
+            goods_input_electronic_component_add = 3
+            goods_input_coal_add = 9
+            # output goods
+            goods_output_lamp_add = 111
+        }
+    }
+}
+pm_lamp_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	unlocking_technologies = {
+		electrical_generation
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 28
+            goods_input_electronic_component_add = 4
+            goods_input_alloy_add = 7.2
+            # output goods
+            goods_output_lamp_add = 148
+        }
+    }
+}
+pm_lamp_5 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 35
+            goods_input_electronic_component_add = 5
+            goods_input_alloy_add = 9
+            # output goods
+            goods_output_lamp_add = 185
+        }
+    }
+}

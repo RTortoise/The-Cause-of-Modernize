@@ -1,0 +1,120 @@
+#钟表
+pm_timepiece_1 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_lead_add = 1
+                        goods_input_glass_add = 4
+                        goods_input_tools_add = 4
+
+                        # output goods
+                        goods_output_timepiece_add = 20
+                }
+        }
+}
+
+pm_timepiece_2 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+        
+        #unlocking_technologies = {
+                #mechanical_tools
+        #}
+        
+        unlocking_production_methods = {
+                pm_atmospheric_engine_2
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_alloy_products_add = 4
+                        goods_input_glass_add = 7
+                        goods_input_tools_add = 6
+
+                        # output goods
+                        goods_output_timepiece_add = 40
+                }
+        }
+}
+
+pm_timepiece_3 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+        
+        unlocking_technologies = {
+                mechanized_workshops
+        }
+        
+        unlocking_production_methods = {
+                pm_watertube_boiler_2
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                        # input goods
+                        goods_input_alloy_products_add = 7
+                        goods_input_glass_add = 9
+                        goods_input_tools_add = 10
+
+                        # output goods
+                        goods_output_timepiece_add = 60
+                }
+        }
+}
+
+pm_timepiece_4 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+        
+        unlocking_technologies = {
+                shift_work
+        }
+        
+        unlocking_production_methods = {
+               
+                pm_rotary_valve_engine_2
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_alloy_products_add = 8
+                        goods_input_glass_add = 12
+                        goods_input_tools_add = 15
+
+                        # output goods
+                        goods_output_timepiece_add = 80
+                }
+        }
+}
+
+pm_timepiece_5 = {
+        texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+        
+        unlocking_technologies = {
+                conveyors
+        }
+        
+        unlocking_production_methods = {
+                                
+                pm_assembly_lines_2
+        }
+        
+        building_modifiers = {
+                workforce_scaled = {
+                         # input goods
+                        goods_input_alloy_products_add = 13
+                        goods_input_glass_add = 12
+                        goods_input_tools_add = 15
+
+                        # output goods
+                        goods_output_timepiece_add = 100
+                }
+        }
+}

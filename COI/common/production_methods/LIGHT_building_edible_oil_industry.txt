@@ -1,0 +1,116 @@
+pm_edible_oil_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 2
+            goods_input_grain_add = 29
+
+            # output goods
+            goods_output_edible_oil_add = 24
+		}
+	}
+}
+
+pm_edible_oil_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 4
+            goods_input_grain_add = 56
+            goods_input_chemicals_add = 8
+
+            # output goods
+            goods_output_edible_oil_add = 50
+		}
+	}
+}
+
+pm_edible_oil_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		baking_powder
+	}				
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 6
+            goods_input_grain_add = 78
+            goods_input_chemicals_add = 12
+
+            # output goods
+            goods_output_edible_oil_add = 75
+		}
+	}
+}
+
+pm_edible_oil_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		shift_work
+	}				
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 8
+            goods_input_grain_add = 112
+            goods_input_chemicals_add = 16
+
+            # output goods
+            goods_output_edible_oil_add = 100
+		}
+	}
+}
+
+pm_edible_oil_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		dough_rollers
+	}				
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+            # input goods
+            goods_input_glass_add = 10
+            goods_input_grain_add = 140
+            goods_input_chemicals_add = 20
+
+            # output goods
+            goods_output_edible_oil_add = 125
+		}
+	}
+}

@@ -1,0 +1,91 @@
+pm_theater_1 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+    
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_luxury_clothes_add = 4
+            goods_input_cosmetics_add = 1
+            goods_input_luxury_furniture_add = 2
+            goods_input_lamp_add = 1
+
+            # output goods
+            goods_output_perform_add = 30
+        }
+    }
+}
+
+pm_theater_2 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+    unlocking_technologies = {
+		central_banking
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_2
+		pm_services_shop_3
+		pm_services_shop_4
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_luxury_clothes_add = 8
+            goods_input_cosmetics_add = 2
+            goods_input_luxury_furniture_add = 4
+            goods_input_lamp_add = 2
+
+            # output goods
+            goods_output_perform_add = 60
+        }
+    }
+}
+
+pm_theater_3 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+    unlocking_technologies = {
+		mutual_funds
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_3
+		pm_services_shop_4
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_luxury_clothes_add = 12
+            goods_input_cosmetics_add = 3
+            goods_input_luxury_furniture_add = 6
+            goods_input_lamp_add = 3
+
+            # output goods
+            goods_output_perform_add = 90
+        }
+    }
+}
+
+pm_theater_4 = {
+    texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+    unlocking_technologies = {
+		modern_financial_instruments
+	}
+	
+	unlocking_production_methods = {
+		pm_services_shop_4
+	}
+	
+    building_modifiers = {
+        workforce_scaled = {
+            # input goods
+            goods_input_luxury_clothes_add = 16
+            goods_input_cosmetics_add = 4
+            goods_input_luxury_furniture_add = 8
+            goods_input_lamp_add = 4
+
+            # output goods
+            goods_output_perform_add = 120
+        }
+    }
+}

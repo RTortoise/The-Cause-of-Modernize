@@ -1,0 +1,406 @@
+#钢铁制品厂
+building_tooling_workshops = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+	
+	ai_nationalization_desire = 0.25 # AI is a bit reluctant to privatize tools due to importance for construction etc
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_tooling_workshops
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_high
+	
+	ai_value = 2000 # Tools are very important
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+#合金厂
+building_alloy_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_alloy_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		steelworking
+	}
+
+	production_method_groups = {
+		pmg_alloy_production
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+
+	required_construction = construction_cost_high
+	
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#合金制品厂
+building_alloy_products_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_alloy_products_factory.dds"
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		steelworking
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_alloy_products_production
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+
+	required_construction = construction_cost_high
+	
+	ai_value = 2000
+}
+
+#钢铁厂
+building_steel_mills = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+
+	unlocking_technologies = {
+		steelworking
+	}
+	
+	production_method_groups = {
+		pmg_steelmaking_process
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#通用机械厂
+building_general_machinery_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_general_machinery_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	
+	production_method_groups = {
+		pmg_general_machinery_production
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#精密机械厂
+building_precision_machinery_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_precision_machinery_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	
+	production_method_groups = {
+		pmg_precision_machinery_production
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#热机设备厂
+building_motor_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/motor_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+
+	production_method_groups = {
+		pmg_base_building_motor_industry
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#汽车厂
+building_automobiles_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_automobiles_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		combustion_engine
+	}
+
+	production_method_groups = {
+		pmg_base_building_automobiles_factory
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#马车厂
+building_carriage_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_carriage_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		lathe
+	}
+
+	production_method_groups = {
+		pmg_base_building_carriage_factory
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#轻武器厂
+building_arms_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/arms_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		gunsmithing
+	}
+
+	production_method_groups = {
+		pmg_firearms_manufacturing
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#火炮厂
+building_artillery_foundries = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/artillery_foundry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		gunsmithing
+	}
+
+	production_method_groups = {
+		pmg_foundries
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#弹药厂
+building_munition_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/munition_plants.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		percussion_cap
+	}
+
+	production_method_groups = {
+		pmg_base_building_munition_plants
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#水泥厂
+building_cement_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_cement_factory.dds"
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		steelworking
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_cement_factory
+		pmg_automation_building_tooling_workshops
+		#pmg_ownership_capital_heavy_industry
+	}
+	
+	required_construction = construction_cost_very_high
+	
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}

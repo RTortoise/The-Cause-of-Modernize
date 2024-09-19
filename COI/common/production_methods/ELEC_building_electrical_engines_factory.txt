@@ -1,0 +1,64 @@
+pm_elec_engines_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 27
+			goods_input_tools_add = 18
+			goods_input_alloy_products_add = 18
+
+			# output goods
+			goods_output_electrical_engines_add = 60
+		}
+	}
+}
+
+pm_elec_engines_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 24
+			goods_input_alloy_products_add = 24
+			goods_input_electronic_component_add = 36
+
+			# output goods
+			goods_output_electrical_engines_add = 80
+		}
+	}
+}
+
+pm_elec_engines_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		electric_railway
+	}
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 30
+			goods_input_alloy_products_add = 30
+			goods_input_electronic_component_add = 45
+
+			# output goods
+			goods_output_electrical_engines_add = 100
+		}
+	}
+}

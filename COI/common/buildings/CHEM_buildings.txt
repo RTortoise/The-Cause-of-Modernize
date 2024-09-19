@@ -1,0 +1,348 @@
+﻿#化学厂
+building_chemicals_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_chemicals_factory.dds"
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_chemicals_production
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#染料合成厂
+building_synthetics_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_synthetics_plants.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		aniline
+	}
+	
+	production_method_groups = {
+		pmg_synthetic_dyes
+		pmg_automation_pro_chem
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#丝绸合成厂
+building_silk_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_silk_plants.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		art_silk
+	}
+	
+	production_method_groups = {
+		pmg_synthetic_silk
+		pmg_automation_pro_chem
+	}
+	
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#肥料厂
+building_chemical_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_chemical_plants.dds"
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_fertilizer_production
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#炸药厂
+building_explosives_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/explosives_factory.dds"
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_explosives_building_chemical_plants
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#制药厂
+building_pharmaceutical_factory = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/building_pharmaceutical_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_pharmaceutical_production
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#化妆品厂
+building_cosmetics_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_cosmetics_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_cosmetics_production
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#洗涤剂厂
+building_detergent_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_detergent_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		distillation
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_detergent_production
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#塑料厂
+building_plastic_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_plastic_factory.dds"
+	
+	ai_nationalization_desire = -0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	unlocking_technologies = {
+		plastics
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_plastic_factory
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+#石油精炼
+building_petroleum_refining_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/building_petroleum_refining_factory.dds"
+	
+	ai_nationalization_desire = 0.25
+	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+	
+	unlocking_technologies = {
+		pumpjacks
+	}
+	
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_petroleum_refining_factory
+		pmg_coal_to_oil_factory
+		pmg_automation_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_very_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}

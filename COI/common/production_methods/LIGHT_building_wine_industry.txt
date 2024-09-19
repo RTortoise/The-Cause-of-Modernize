@@ -1,0 +1,116 @@
+pm_wine_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 3
+			goods_input_fruit_add = 11
+
+			# output goods
+			goods_output_wine_add = 25
+		}
+	}
+}
+
+pm_wine_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}				
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_2
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 6
+			goods_input_fruit_add = 20
+			goods_input_chemicals_add = 2
+
+			# output goods
+			goods_output_wine_add = 40
+		}
+	}
+}
+
+pm_wine_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	
+	unlocking_technologies = {
+		baking_powder
+	}				
+	
+	unlocking_production_methods = {
+		pm_watertube_boiler_2
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 9
+			goods_input_fruit_add = 30
+			goods_input_chemicals_add = 3
+
+			# output goods
+			goods_output_wine_add = 75
+		}
+	}
+}
+
+pm_wine_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	
+	unlocking_technologies = {
+		vacuum_canning
+	}				
+	
+	unlocking_production_methods = {
+		pm_rotary_valve_engine_2
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 12
+			goods_input_fruit_add = 40
+			goods_input_chemicals_add = 4
+
+			# output goods
+			goods_output_wine_add = 100
+		}
+	}
+}
+
+pm_wine_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	
+	unlocking_technologies = {
+		automatic_bottle_blowers
+	}				
+	
+	unlocking_production_methods = {
+		pm_assembly_lines_2
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 15
+			goods_input_fruit_add = 50
+			goods_input_chemicals_add = 5
+
+			# output goods
+			goods_output_wine_add = 125
+		}
+	}
+}

@@ -1,0 +1,49 @@
+#电子零件厂
+pmg_elec_cmpnt_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_elec_cmpnt_1
+		pm_elec_cmpnt_2
+		pm_elec_cmpnt_3
+	}
+}
+
+#电机设备厂
+pmg_elec_engines_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_elec_engines_1
+		pm_elec_engines_2
+		pm_elec_engines_3
+	}
+}
+
+#电话厂
+pmg_telephones_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_telephones_1
+		pm_telephones_2
+		pm_telephones_3
+	}
+}
+
+#收音机厂
+pmg_radios_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_radios_1
+		pm_radios_2
+		pm_radios_3
+	}
+}
+
+#电器制造
+pmg_electrical_equipment_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_electrical_equipment_3
+		pm_electrical_equipment_4
+		pm_electrical_equipment_5
+	}
+}

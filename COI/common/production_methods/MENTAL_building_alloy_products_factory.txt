@@ -1,0 +1,110 @@
+pm_alloy_products_1 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 12
+			goods_input_iron_add = 10
+			goods_input_coal_add = 4
+
+			# output goods
+			goods_output_alloy_products_add = 34
+		}
+	}
+}
+
+pm_alloy_products_2 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	
+	unlocking_technologies = {
+		bessemer_process
+	}	
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 34
+			goods_input_coal_add = 10
+
+			# output goods
+			goods_output_alloy_products_add = 68
+		}
+	}
+}
+
+pm_alloy_products_3 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	unlocking_technologies = {
+		watertube_boiler
+	}
+	unlocking_production_methods = {
+		pm_watertube_boiler
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 48
+			goods_input_coal_add = 12
+			goods_input_chemicals_add = 12
+
+			# output goods
+			goods_output_alloy_products_add = 102
+		}
+	}
+}
+
+pm_alloy_products_4 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	unlocking_production_methods = {
+		pm_rotary_valve_engine
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 64
+			goods_input_coal_add = 16
+			goods_input_chemicals_add = 16
+
+			# output goods
+			goods_output_alloy_products_add = 136
+		}
+	}
+}
+
+pm_alloy_products_5 = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base5.dds"
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+	unlocking_production_methods = {
+		pm_assembly_lines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_alloy_add = 80
+			goods_input_coal_add = 20
+			goods_input_chemicals_add = 20
+
+			# output goods
+			goods_output_alloy_products_add = 170
+		}
+	}
+}

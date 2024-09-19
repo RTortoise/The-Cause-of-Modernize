@@ -1,0 +1,74 @@
+atmospheric_engine = {
+	# Unlocks Motor Industry
+	# Unlocks Atmospheric Engine Pump PM in Coal Mine, Iron Mine, Lead Mine, Sulfur Mine
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/atmospheric_engine.dds"
+	category = production
+	
+	unlocking_technologies = {
+		shaft_mining
+		mechanical_tools
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				OR = {
+					 has_strategy = ai_strategy_industrial_expansion
+					 has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			add = 2
+		}	
+	}
+}
+
+railways = {
+	# Unlocks Railways
+	# Unlocks Rail Transport PM in Coal, Iron, Lead, Sulfur Mines
+	# Unlocks Rail Transport PM in Coffee, Cotton, Dye, Opium, Tea, Tobacco, Sugar, Rubber, Banana Plantations
+	# Unlocks Rail Transport PM in Logging Camp
+	# Unlocks Rail Transport PM in Oil Rig
+	# Unlocks Public Trams in Urban Centers
+	# Increases Railway max level by 1
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/railways.dds"
+	category = production
+	
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+	
+	ai_weight = {
+		value = 2 # Important tech for everyone
+		
+		if = {
+			limit = { 
+				OR = {
+					 has_strategy = ai_strategy_industrial_expansion
+					 has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			add = 2
+		}		
+	}
+}
+
+fractional_distillation = {
+	# Unlocks Patent Stills PM in Food Industries
+	# Unlocks Cod Liver Oil PM in Fishing Wharfs
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/fractional_distillation.dds"
+	category = production
+	
+	unlocking_technologies = {
+		distillation
+		crystal_glass
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}

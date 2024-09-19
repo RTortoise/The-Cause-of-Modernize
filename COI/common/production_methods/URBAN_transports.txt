@@ -1,0 +1,82 @@
+
+pm_no_public_transport = {
+	texture = "gfx/interface/icons/production_method_icons/no_public_transport.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_transportation_add = 5
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 3
+		}
+	}
+}
+
+pm_public_trams = {
+	texture = "gfx/interface/icons/production_method_icons/public_trams.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 1
+			goods_output_transportation_add = 8
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 100
+			building_employment_machinists_add = 200
+			building_employment_laborers_add = -500
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 6
+		}
+	}
+}
+
+pm_public_motor_carriages = {
+	texture = "gfx/interface/icons/production_method_icons/public_motor_carriages.dds"
+
+	unlocking_technologies = {
+		combustion_engine
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_automobiles_add = 1
+			goods_output_transportation_add = 10
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 200
+			building_employment_machinists_add = 400
+			building_employment_laborers_add = -1000
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 9
+		}
+	}
+}
